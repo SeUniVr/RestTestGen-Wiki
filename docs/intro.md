@@ -1,0 +1,43 @@
+---
+sidebar_position: 1
+---
+
+# A Brief Recap
+
+Typically, an **API** (Application Programming Interface) is a set of rules and protocols that allow software to communicate with each other by exchanging data and information. API architecture, in general, is explained in terms of **client** and **server**: there is an application that sends a request (client) and an application that sends the response (server).
+
+We can distinguish between them **Web APIs** (Application Program Interfaces for the Web), which are interfaces that allow communication between applications using the HTTP protocol.   
+
+APIs can adhere to different types of architectures. Among these, we can find the **REST** (REpresentational State Transfer) architecture, which is one of the most flexible, widespread and used today. So, an API to be classified as “REST” must adhere to this architectural style.   
+
+Nowadays, REST APIs have become a fundamental component in the development of modern software architectures, enabling various applications to **interact** and **communicate** with each other quickly and easily.  These APIs allow the exchange of data across different platforms, facilitating the flow of information and giving developers access to functionality and resources provided by **external services**.
+
+Thanks to their **simplicity**, **flexibility** and the fact that they **rely** on the **HTTP protocol**, REST APIs are becoming more and more popular and provide a solid basis when it comes to making different applications communicate with each other. Today, the use of this technology is there for all to see, and we can observe it in everyday life and in the applications, we use daily, such as social networks (e.g. Instagram, Facebook) or entertainment apps (e.g. Spotify, Netflix) or Google itself. 
+
+Since the use of these APIs has become of paramount importance and is continuously expanding, it is necessary that the operations of these APIs are provided **without interruptions** or errors that can also lead to threats to the security for those who use them. Developers, therefore, must take care to produce quality code that is resistant to attacks that can undermine the security of the service and put data and users at risk.
+
+The traditional approach to do this involves the manual writing of test cases. This method, however, proves to be **very time-consuming** and **resource-intensive** that could be allocated to solving or developing other tasks. This highlights the need to explore automated testing methodologies that relieve the developer from having to manually validate APIs. Automated test case generation offers a systematic and efficient means of detecting programming errors in REST APIs, ensuring alignment with specifications and resilience in evolving software ecosystems.   
+
+## Challenges
+The automation of testing, through a black-box approach, brings with it **some** inherent **challenges** that need special attention. These are: operation ordering, input generation and the oracle problem. Let's see them one by one and in detail. 
+
+### Operation Ordering
+A REST API exposes a service consisting of a series of operations that can be used by a client via the HTTP protocol. Clients can use this functionality at **any time** and in **any state** of the API. However, the API must be constructed in order to be able to handle incoming requests and process them only when they are compatible with the current state. For example, let us consider a REST service called “*Bookstore*” which allows users to manage books within a database by means of create, read, edit and delete operations. Let us assume that the database is **initially empty**. A client connecting to the service can, as mentioned above, call any operation at any time. However, in the considered case where the database is initially empty, read, update or delete operations will fail, presumably returning a ```404 status code```, since no instances will be present. In contrast, the create operation can be performed at any time as it has no dependencies or constraints that must be previously satisfied.   
+
+The successful execution of an operation depends entirely on the business logic that is implemented within the API. This information is only available when the source code can be inspected. However, the context considered at this juncture is **black-box** (i.e. non-accessible source code), so it is very difficult to establish a priori an effective ordering of operations. The only information that can be used in this context is that present in the OpenAPI specification (i.e. the definition of interfaces, response schema) and the feedback that is produced as a result of a call to a specific endpoint.
+
+### Input Generation
+The second challenge that must be addressed when talking about automated testing, is the generation of **valid** input data for operations. It should be noted that endpoints may need different types of input parameters such as **query parameters**, **path parameters** or **header parameters**. In addition to this, it is also possible to use **structured objects** (JSON or XML) or arrays that are included directly in the body of the request.   
+
+From the OpenAPI specification, it is possible to infer the schema to which the data must adhere and generate it in the appropriate form. What is complicated is to generate values that are valid for the internal state of the API and relevant to the sequence of operations being constructed. It should be emphasised that if an operation requires the use of several parameters, even the incorrect generation of just one of these can lead to incorrect execution and thus to an error (i.e. ```4XX status code```).   
+
+It should be also noted that the **validity of a parameter** value may also depend on the internal state of the API. For example, let us consider the service mentioned above, the “*Bookstore*”. Of this, let us consider the ```PUT /book``` operation, used to modify a book present within the database. The operation considered accepts a JSON object as the payload of the request body with four properties: ```bookId```, ```title```, ```author``` and ```price```. With regard to the last three properties, any value that conforms to the specification may be assigned, while with regard to the ```bookId``` property, not only must the value conform, but it must also indicate a book that is already present within the database, so it must be aligned with the internal state of the API.   
+
+As mentioned above, the approach applied is black box, so the internal state of the API **cannot be investigated**. However, it is still possible to make HTTP requests and interact with the API, collecting the values observed in response from previous operations (e.g. ```GET /books``` listing all the books in the system).   
+
+Finally, another aspect to be considered is the **selection of parameters** to be used. Some requests include both mandatory and optional parameters. Selecting the correct number of parameters is crucial. While using a large number of parameters can improve the effectiveness of the test, it can also significantly reduce the likelihood of requests being accepted as it is much more difficult to guess valid values for all parameters. Similarly, determining the correct size of arrays is essential for successful queries.
+
+### The Oracle Problem
+The oracle problem in software testing refers to the challenge of determining whether the observed **output** of a system under test **is consistent** with the expected output. It is, therefore, the difficulty of establishing a reliable and definitive reference against which to compare the observed behaviour of software. In the field of black-box testing of REST APIs, an oracle must assess the behaviour of the API solely by observing the HTTP interactions occurring at the time of the test. These interactions consist of requests generated by automated test approaches and the corresponding responses of the API.   
+
+As a result, the oracle lacks additional information, such as the internal state of the API or other metrics gathered from the source code, to make informed decisions. Furthermore, oracles are often **derived from the API specification** of the system under consideration; however, these specifications are often incomplete, making the task more challenging. Furthermore, widely adopted specification formats, such as OpenAPI, do not support the formal specification of functional or security properties of the described APIs, but only syntactic properties such as input and output schemas. 

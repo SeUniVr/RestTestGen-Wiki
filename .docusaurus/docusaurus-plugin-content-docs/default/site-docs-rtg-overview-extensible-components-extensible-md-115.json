@@ -1,0 +1,23 @@
+{
+  "id": "rtg-overview/extensible-components/extensible",
+  "title": "Extensible Components",
+  "description": "These components are a set of abstract and concrete classes for which researchers or experts might want to provide a new implementation to realise their new testing algorithm.",
+  "source": "@site/docs/rtg-overview/extensible-components/extensible.md",
+  "sourceDirName": "rtg-overview/extensible-components",
+  "slug": "/rtg-overview/extensible-components/extensible",
+  "permalink": "/docs/rtg-overview/extensible-components/extensible",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Components",
+    "permalink": "/docs/rtg-overview/core-components/core"
+  },
+  "next": {
+    "title": "RTG Components",
+    "permalink": "/docs/category/rtg-components"
+  }
+}

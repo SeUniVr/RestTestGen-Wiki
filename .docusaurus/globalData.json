@@ -1,0 +1,66 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/component1",
+              "path": "/docs/rtg-components/component1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/component2",
+              "path": "/docs/rtg-components/component2"
+            },
+            {
+              "id": "rtg-overview/core-components/core",
+              "path": "/docs/rtg-overview/core-components/core",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-overview/extensible-components/extensible",
+              "path": "/docs/rtg-overview/extensible-components/extensible",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-overview/main",
+              "path": "/docs/rtg-overview/main"
+            },
+            {
+              "id": "/category/tool-overview",
+              "path": "/docs/category/tool-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/rtg-components",
+              "path": "/docs/category/rtg-components",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

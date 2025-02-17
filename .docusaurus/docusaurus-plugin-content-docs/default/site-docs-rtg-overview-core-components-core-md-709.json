@@ -1,0 +1,23 @@
+{
+  "id": "rtg-overview/core-components/core",
+  "title": "Core Components",
+  "description": "The tool provides researchers and practitioners with some “core components” that are presented in detail below.",
+  "source": "@site/docs/rtg-overview/core-components/core.md",
+  "sourceDirName": "rtg-overview/core-components",
+  "slug": "/rtg-overview/core-components/core",
+  "permalink": "/docs/rtg-overview/core-components/core",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tool Overview",
+    "permalink": "/docs/category/tool-overview"
+  },
+  "next": {
+    "title": "Extensible Components",
+    "permalink": "/docs/rtg-overview/extensible-components/extensible"
+  }
+}
