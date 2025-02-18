@@ -1,0 +1,23 @@
+{
+  "id": "rtg-components/writer",
+  "title": "Writer",
+  "description": "The framework provides a component that allows the various `TestSequences` to be written to file. This is useful when a researcher or programmer needs to have a clearer view of the various tests that have been performed on the REST API under test.  At the moment, only three implementations are provided, however, it is possible to create others as desired and according to individual needs.",
+  "source": "@site/docs/rtg-components/writer.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/writer",
+  "permalink": "/docs/rtg-components/writer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RTG Components",
+    "permalink": "/docs/category/rtg-components"
+  },
+  "next": {
+    "title": "Strategy",
+    "permalink": "/docs/rtg-components/strategy"
+  }
+}

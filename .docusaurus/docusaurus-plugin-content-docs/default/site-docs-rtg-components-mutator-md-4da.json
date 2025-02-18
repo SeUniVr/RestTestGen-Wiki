@@ -1,0 +1,23 @@
+{
+  "id": "rtg-components/mutator",
+  "title": "Mutator",
+  "description": "A mutator is a software component that modifies in a controlled manner certain aspects of an entity, such as data, parameters or operations, with the aim of generating variations useful for testing, optimisation or analysis of the robustness of a system.",
+  "source": "@site/docs/rtg-components/mutator.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/mutator",
+  "permalink": "/docs/rtg-components/mutator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Operation Sorter",
+    "permalink": "/docs/rtg-components/operation-sorter"
+  },
+  "next": {
+    "title": "Interaction Processor",
+    "permalink": "/docs/rtg-components/interaction-processor"
+  }
+}

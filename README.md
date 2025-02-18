@@ -6,6 +6,7 @@ To run the project locally, Node.js must be installed, after which:
 
 ``` 
     cd RestTetGen-Wiki
+    npm install
     npm run start
 ```
 

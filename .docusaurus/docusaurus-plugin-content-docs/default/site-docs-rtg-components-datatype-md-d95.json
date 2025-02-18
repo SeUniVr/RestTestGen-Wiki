@@ -1,0 +1,19 @@
+{
+  "id": "rtg-components/datatype",
+  "title": "Parameters",
+  "description": "The abstract class `Parameter` provides the representation of a parameter within the OpenAPI specification. Parameters are used in HTTP requests to pass data, e.g. in query parameters, header, body, ...",
+  "source": "@site/docs/rtg-components/datatype.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/datatype",
+  "permalink": "/docs/rtg-components/datatype",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fuzzer",
+    "permalink": "/docs/rtg-components/fuzzer"
+  }
+}

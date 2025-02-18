@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5fd'),
+    component: ComponentCreator('/docs', '755'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4df'),
+        component: ComponentCreator('/docs', 'd50'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c30'),
+            component: ComponentCreator('/docs', '53d'),
             routes: [
               {
                 path: '/docs/category/rtg-components',
@@ -73,15 +73,58 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rtg-components/component1',
-                component: ComponentCreator('/docs/rtg-components/component1', '948'),
+                path: '/docs/rtg-components/fuzzer',
+                component: ComponentCreator('/docs/rtg-components/fuzzer', '5a2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rtg-components/component2',
-                component: ComponentCreator('/docs/rtg-components/component2', '624'),
-                exact: true
+                path: '/docs/rtg-components/interaction-processor',
+                component: ComponentCreator('/docs/rtg-components/interaction-processor', '083'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/mutator',
+                component: ComponentCreator('/docs/rtg-components/mutator', '98f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/operation-sorter',
+                component: ComponentCreator('/docs/rtg-components/operation-sorter', 'af2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/oracle',
+                component: ComponentCreator('/docs/rtg-components/oracle', 'e1e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/parameters',
+                component: ComponentCreator('/docs/rtg-components/parameters', 'a5c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/pvp',
+                component: ComponentCreator('/docs/rtg-components/pvp', '45f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/strategy',
+                component: ComponentCreator('/docs/rtg-components/strategy', '221'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rtg-components/writer',
+                component: ComponentCreator('/docs/rtg-components/writer', 'b52'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/rtg-overview/core-components/core',

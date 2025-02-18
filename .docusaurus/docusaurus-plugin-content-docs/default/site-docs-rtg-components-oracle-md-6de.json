@@ -1,0 +1,23 @@
+{
+  "id": "rtg-components/oracle",
+  "title": "Oracle",
+  "description": "This component deals with making assertions on the correct execution of a `TestSequence`. Some implementations of the tool are already provided within the tool. Details of these are explained below.",
+  "source": "@site/docs/rtg-components/oracle.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/oracle",
+  "permalink": "/docs/rtg-components/oracle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-components/pvp"
+  },
+  "next": {
+    "title": "Operation Sorter",
+    "permalink": "/docs/rtg-components/operation-sorter"
+  }
+}

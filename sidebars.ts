@@ -42,7 +42,9 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
         description: "Components described in details.",
       },
-      items: ['rtg-components/component1', 'rtg-components/component1'],
+      items: ['rtg-components/writer', 'rtg-components/strategy', 'rtg-components/pvp', 
+              'rtg-components/oracle', 'rtg-components/operation-sorter', 'rtg-components/mutator', 
+              'rtg-components/interaction-processor', 'rtg-components/fuzzer', 'rtg-components/parameters'],
     },
     
   ],

@@ -1,0 +1,23 @@
+{
+  "id": "rtg-components/strategy",
+  "title": "Strategy",
+  "description": "To execute RestTestGen, the `main()` method inside the App class within the package `io.resttestgen.boot.cli` is executed. Within the project, there is also a configuration file `rtg-config.yml` in which anyone wishing to use the tool must specify the strategy to be used and the API to be tested.",
+  "source": "@site/docs/rtg-components/strategy.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/strategy",
+  "permalink": "/docs/rtg-components/strategy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Writer",
+    "permalink": "/docs/rtg-components/writer"
+  },
+  "next": {
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-components/pvp"
+  }
+}

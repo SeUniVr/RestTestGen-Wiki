@@ -16,13 +16,49 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rtg-components/component1",
-              "path": "/docs/rtg-components/component1",
+              "id": "rtg-components/fuzzer",
+              "path": "/docs/rtg-components/fuzzer",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rtg-components/component2",
-              "path": "/docs/rtg-components/component2"
+              "id": "rtg-components/interaction-processor",
+              "path": "/docs/rtg-components/interaction-processor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/mutator",
+              "path": "/docs/rtg-components/mutator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/operation-sorter",
+              "path": "/docs/rtg-components/operation-sorter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/oracle",
+              "path": "/docs/rtg-components/oracle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/parameters",
+              "path": "/docs/rtg-components/parameters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/pvp",
+              "path": "/docs/rtg-components/pvp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/strategy",
+              "path": "/docs/rtg-components/strategy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rtg-components/writer",
+              "path": "/docs/rtg-components/writer",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "rtg-overview/core-components/core",

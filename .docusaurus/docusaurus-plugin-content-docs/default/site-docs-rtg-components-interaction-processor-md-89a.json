@@ -1,0 +1,23 @@
+{
+  "id": "rtg-components/interaction-processor",
+  "title": "Interaction Processor",
+  "description": "The abstract class `InteractionProcessor` defines an interface for processing test interactions. Within this class we find two methods: `canProcess`, to check whether an interaction is suitable for processing; `process` used to execute the processing of the interaction.",
+  "source": "@site/docs/rtg-components/interaction-processor.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/interaction-processor",
+  "permalink": "/docs/rtg-components/interaction-processor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mutator",
+    "permalink": "/docs/rtg-components/mutator"
+  },
+  "next": {
+    "title": "Fuzzer",
+    "permalink": "/docs/rtg-components/fuzzer"
+  }
+}

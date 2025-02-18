@@ -1,0 +1,23 @@
+{
+  "id": "rtg-components/pvp",
+  "title": "Parameter Value Provider",
+  "description": "This set of classes is used to provide a value to various parameters, based on different valuation methodologies. In the implementation of RestTestGen, we find two macro-types: single and multiple (i.e. combining several single strategies).",
+  "source": "@site/docs/rtg-components/pvp.md",
+  "sourceDirName": "rtg-components",
+  "slug": "/rtg-components/pvp",
+  "permalink": "/docs/rtg-components/pvp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Strategy",
+    "permalink": "/docs/rtg-components/strategy"
+  },
+  "next": {
+    "title": "Oracle",
+    "permalink": "/docs/rtg-components/oracle"
+  }
+}

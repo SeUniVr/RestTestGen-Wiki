@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "RTG Components",
-    "permalink": "/docs/category/rtg-components"
-  },
-  "next": {
-    "title": "component1",
-    "permalink": "/docs/rtg-components/component1"
-  }
+  "frontMatter": {}
 }
