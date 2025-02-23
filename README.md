@@ -1,20 +1,39 @@
-# RTG WIKI
+# RestTestGen Wiki
 
-The project contains the documentation for the RestTestGen tool. The documentation was created using Docusaurus, a framework developed by Facebook and based on React for the creation of interactive and structured documentation. 
+This repository contains the documentation for [RestTestGen framework](https://github.com/SeUniVr/RestTestGen). RestTestGen is a robust tool and framework designed for automated black-box testing of RESTful web APIs.
 
-To run the project locally, Node.js must be installed, after which:
+The Wiki is publicly available [here](#).
+
+This repository includes both the documentation content in markdown files and the source code needed to deploy a documentation website powered by [Docusaurus](https://docusaurus.io/).
+
+## Deployment
+The Docusaurus-powered website can be deployed using the following methods:
+- Docker Compose (recommended)
+- Docker
+- Local machine
+
+Please follow the instructions for your preferred method below.
+
+In all cases, the website will be reachable on localhost at port 3000: [http://localhost:3000](http://localhost:3000).
+
+### Docker Compose
 
 ```bash
-    cd RestTetGen-Wiki
-    npm install
-    npm run start
+docker compose up -d
 ```
 
-If you want to use the Dockerfile:
+### Docker
 
 ```bash
     sudo docker build -t rtg-wiki .
     sudo docker run -p 3000:3000 rtg-wiki
 ```
 
-You will find the project running on ```http://localhost:3000/```
+### Local
+
+> Requires Node.js to be installed on the local machine.
+
+```bash
+    npm install
+    npm run start
+```
