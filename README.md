@@ -25,8 +25,8 @@ docker compose up -d
 ### Docker
 
 ```bash
-    sudo docker build -t rtg-wiki .
-    sudo docker run -p 3000:3000 rtg-wiki
+sudo docker build -t rtg-wiki .
+sudo docker run -p 3000:3000 rtg-wiki
 ```
 
 ### Local
@@ -34,6 +34,6 @@ docker compose up -d
 > Requires Node.js to be installed on the local machine.
 
 ```bash
-    npm install
-    npm run start
+npm install
+npm run start
 ```
