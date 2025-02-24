@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/datatype/parameters",
+  "title": "Parameters",
+  "description": "The abstract class `Parameter` provides the representation of a parameter within the OpenAPI specification. Parameters are used in HTTP requests to pass data, e.g. in query parameters, header, body, ...",
+  "source": "@site/docs/rtg-framework/datatype/parameters.md",
+  "sourceDirName": "rtg-framework/datatype",
+  "slug": "/rtg-framework/datatype/parameters",
+  "permalink": "/docs/rtg-framework/datatype/parameters",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Datatype",
+    "permalink": "/docs/category/datatype"
+  },
+  "next": {
+    "title": "Operation",
+    "permalink": "/docs/rtg-framework/datatype/operation"
+  }
+}

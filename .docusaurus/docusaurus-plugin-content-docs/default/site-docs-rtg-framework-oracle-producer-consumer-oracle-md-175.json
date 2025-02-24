@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/oracle/producer-consumer-oracle",
+  "title": "Producer Consumer Oracle",
+  "description": "This oracle assesses whether a test sequence consisting of two interactions operates on the same “object” in a producer-consumer relationship. In other words, it checks whether the output of the first interaction is used as input in the second.",
+  "source": "@site/docs/rtg-framework/oracle/producer-consumer-oracle.md",
+  "sourceDirName": "rtg-framework/oracle",
+  "slug": "/rtg-framework/oracle/producer-consumer-oracle",
+  "permalink": "/docs/rtg-framework/oracle/producer-consumer-oracle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mass Assignment Oracle",
+    "permalink": "/docs/rtg-framework/oracle/mass-assignment-oracle"
+  },
+  "next": {
+    "title": "Strategy",
+    "permalink": "/docs/category/strategy"
+  }
+}

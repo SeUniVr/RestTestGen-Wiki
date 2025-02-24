@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/datatype/operation",
+  "title": "Operation",
+  "description": "",
+  "source": "@site/docs/rtg-framework/datatype/operation.md",
+  "sourceDirName": "rtg-framework/datatype",
+  "slug": "/rtg-framework/datatype/operation",
+  "permalink": "/docs/rtg-framework/datatype/operation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Parameters",
+    "permalink": "/docs/rtg-framework/datatype/parameters"
+  },
+  "next": {
+    "title": "Fuzzer",
+    "permalink": "/docs/category/fuzzer"
+  }
+}

@@ -19,8 +19,172 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
   
   tutorialSidebar: [
-    'intro',
+    'automated-testing',
+    'rtg',
     {
+      type: 'category',
+      label: 'RTG as Framework',
+      link: {
+        type: 'generated-index',
+        description: "This section presents the various components within the framework and their implementations.",
+      },
+      items: [{
+                type: 'category',
+                label: 'Datatype', 
+                link: {
+                  type: 'generated-index',
+                  description: "This section presents an overview of the classes used to manage the concept of Parameter and Operation within RTG.",
+                },
+                items: ['rtg-framework/datatype/parameters', 'rtg-framework/datatype/operation']
+              },
+              {
+                type: 'category',
+                label: 'Fuzzer', 
+                link: {
+                  type: 'generated-index',
+                  description: "A fuzzer is an automatic testing tool that injects random or mutated input into a system to detect errors,"
+                              +"vulnerabilities or unexpected behaviour.",
+                },
+                items: ['rtg-framework/fuzzer/error-fuzzer', 'rtg-framework/fuzzer/mass-assignment-fuzzer', 'rtg-framework/fuzzer/nominal-fuzzer', 'rtg-framework/fuzzer/subsequence-error-fuzzer']
+              },
+              {
+                type: 'category',
+                label: 'Interaction Processor', 
+                link: {
+                  type: 'generated-index',
+                  description: "The abstract class InteractionProcessor defines an interface for processing test interactions. Within this class we"
+                              +" find two methods: canProcess(), to check whether an interaction is suitable for processing; process() used to execute the"
+                              +"processing of the interaction.",
+                },
+                items: ['rtg-framework/interaction-processor/graph-inter-processor', 'rtg-framework/interaction-processor/jsonparser-inter-processor', 'rtg-framework/interaction-processor/nlp-inter-processor', 'rtg-framework/interaction-processor/request-dictionary-inter-processor', 'rtg-framework/interaction-processor/response-dictionary-inter-processor']
+              },
+              {
+                type: 'category',
+                label: 'Mutator', 
+                link: {
+                  type: 'generated-index',
+                  description: "A mutator is a software component that modifies in a controlled manner certain aspects of an entity, such as data,"
+                              +" parameters or operations, with the aim of generating variations useful for testing, optimisation or analysis of the robustness of"
+                              +" a system. Two types of mutator can be found within RTG: the parameter mutator (e.g. modifies the values of input parameters,"
+                              +" introducing random or targeted variations) and the operation mutator (e.g. changes the behaviour of operations, e.g. by replacing" 
+                              +" parameters).",
+                },
+                items: [ {  type: 'category',
+                            label: 'Operation Mutator', 
+                            link: {
+                              type: 'generated-index',
+                              description: "These are mutators that modify the values of input parameters, introducing random or targeted variations",
+                            },
+                            items: ['rtg-framework/mutator/operation-mutator/mutate-random-mutator']
+                          }, 
+                          {  type: 'category',
+                            label: 'Parameter Mutator', 
+                            link: {
+                              type: 'generated-index',
+                              description: "These are mutators that change the behaviour of operations, e.g. by replacing parameters types or values.",
+                            },
+                            items: ['rtg-framework/mutator/parameter-mutator/missing-required-mutator', 
+                                    'rtg-framework/mutator/parameter-mutator/constraint-violation-mutator', 
+                                    'rtg-framework/mutator/parameter-mutator/wrong-type-mutator']
+                          }, 
+                        ]
+              },
+              {
+                type: 'category',
+                label: 'Operation Sorter', 
+                link: {
+                  type: 'generated-index',
+                  description: "There are two type of operation sorter, the static and the dynamic one. Both of them extend the ```OperationSorter``` class.",
+                },
+                items: [ {  type: 'category',
+                            label: 'Static Operation Sorter', 
+                            link: {
+                              type: 'generated-index',
+                              description: "The sorting of operations is chosen at the beginning and does not change during the execution of the test session. ",
+                            },
+                            items: ['rtg-framework/operation-sorter/static/random-operation-sorter']
+                          }, 
+                          {  type: 'category',
+                            label: 'Dynamic Operation Sorter', 
+                            link: {
+                              type: 'generated-index',
+                              description: "This is the abstract class from which the various dynamic sorters inherit. They must then implement the"
+                                          + "refresh()``` method to update the queue of operations to be executed.",
+                            },
+                            items: ['rtg-framework/operation-sorter/dynamic/graph-based-operation-sorter']
+                          }, 
+                ]
+              },
+              {
+                type: 'category',
+                label: 'Oracle', 
+                link: {
+                  type: 'generated-index',
+                  description: "This component deals with making assertions on the correct execution of a ```TestSequence```." 
+                              +"Some implementations of the tool are already provided within the tool. Details of these are explained below.",
+                },
+                items: ['rtg-framework/oracle/error-status-code-oracle', 'rtg-framework/oracle/status-code-oracle', 'rtg-framework/oracle/mass-assignment-oracle', 'rtg-framework/oracle/producer-consumer-oracle']
+              },
+              {
+                type: 'category',
+                label: 'Strategy', 
+                link: {
+                  type: 'generated-index',
+                  description: "The Strategy class can be regarded as the entry point of the tool. The methods of the Strategy class can be implemented" 
+                              +"as desired to create one's own test methodology. Within the start() method, the actual logic to be followed during" 
+                              +"testing is implemented."
+                },
+                items: ['rtg-framework/strategy/nominal-error-strategy', 'rtg-framework/strategy/mass-assignment-strategy', 'rtg-framework/strategy/nlp-strategy']
+              },
+              {
+                type: 'category',
+                label: 'Writer', 
+                link: {
+                  type: 'generated-index',
+                  description: "The framework provides a component that allows the various ```TestSequences``` to be written to file."
+                              +" This is useful when a researcher or programmer needs to have a clearer view of the various tests that" 
+                              +" have been performed on the REST API under test.  At the moment, only three implementations are provided," 
+                              +" however, it is possible to create others as desired and according to individual needs."
+                },
+                items: ['rtg-framework/writer/coverage-report', 'rtg-framework/writer/report-writer', 'rtg-framework/writer/rest-assured-writer']
+              },
+              {
+                type: 'category',
+                label: 'Parameter Value Provider', 
+                link: {
+                  type: 'generated-index',
+                  description: "This set of classes is used to provide a value to various parameters, based on different valuation methodologies." 
+                              +" In the implementation of RestTestGen, we find two macro-types: single and multiple (i.e. combining several single strategies).",
+                },
+                items: [ {  type: 'category',
+                            label: 'Single Strategy Parameter Value Providers', 
+                            link: {
+                              type: 'doc',
+                              id: 'rtg-framework/pvp/single-strategy/single-strategy'
+                            },
+                            items: ['rtg-framework/pvp/single-strategy/default-pvp', 'rtg-framework/pvp/single-strategy/enum-pvp',
+                                    'rtg-framework/pvp/single-strategy/examples-pvp', 'rtg-framework/pvp/single-strategy/last-request-pvp',
+                                    'rtg-framework/pvp/single-strategy/last-response-pvp', 'rtg-framework/pvp/single-strategy/request-pvp',
+                                    'rtg-framework/pvp/single-strategy/response-pvp'
+                            ]
+                          }, 
+                          {  type: 'category',
+                            label: 'Multi Strategy Parameter Value Providers', 
+                            link: {
+                              type: 'doc',
+                              id: 'rtg-framework/pvp/multi-strategy/multi-strategy'
+                            },
+                            items: ['rtg-framework/pvp/multi-strategy/enum-example-pvp', 'rtg-framework/pvp/multi-strategy/global-dictionary-pvp',
+                              'rtg-framework/pvp/multi-strategy/keep-last-id-pvp', 'rtg-framework/pvp/multi-strategy/local-dictionary', 
+                              'rtg-framework/pvp/multi-strategy/random-pvp'
+                            ]
+                          }, 
+                ]
+              },
+
+        ],
+    },
+    /*{
       type: 'category',
       label: 'Tool Overview',
       link: {
@@ -34,18 +198,8 @@ const sidebars: SidebarsConfig = {
         "can be much more difficult.",
       },
       items: ['rtg-overview/core-components/core', 'rtg-overview/extensible-components/extensible'],
-    },
-    {
-      type: 'category',
-      label: 'RTG Components',
-      link: {
-        type: 'generated-index',
-        description: "Components described in details.",
-      },
-      items: ['rtg-components/writer', 'rtg-components/strategy', 'rtg-components/pvp', 
-              'rtg-components/oracle', 'rtg-components/operation-sorter', 'rtg-components/mutator', 
-              'rtg-components/interaction-processor', 'rtg-components/fuzzer', 'rtg-components/parameters'],
-    },
+    },*/
+    
     
   ],
 };

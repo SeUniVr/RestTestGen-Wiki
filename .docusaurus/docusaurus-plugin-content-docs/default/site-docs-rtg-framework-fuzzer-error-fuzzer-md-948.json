@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/fuzzer/error-fuzzer",
+  "title": "Error Fuzzer",
+  "description": "This class generates mutant test sequences by applying changes to the parameters of API requests to test their robustness and error handling capability. The aim is to simulate erroneous inputs to test the API's error handling. Mutations are applied to request parameters to generate variants with missing values, wrong types or violated constraints. Finally, mutated sequences are executed and evaluated to test the behaviour of the API in abnormal scenarios.  The operation of the Fuzzer is explained below. First, a test sequence is passed in to be modified. Mutators are defined (e.g. `MissingrequiredParameterMutator`, `WrongTypeParameterMutator`, `ConstraintViolationParameterMutator`). After that, mutated sequences are generated and, for each interaction of the original sequence, n variants are created. An applicable mutator is randomly selected and this new interaction is created and executed by a `TestRunner`.  The report is also written using ReportWriter and RestAssuredWriter.",
+  "source": "@site/docs/rtg-framework/fuzzer/error-fuzzer.md",
+  "sourceDirName": "rtg-framework/fuzzer",
+  "slug": "/rtg-framework/fuzzer/error-fuzzer",
+  "permalink": "/docs/rtg-framework/fuzzer/error-fuzzer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fuzzer",
+    "permalink": "/docs/category/fuzzer"
+  },
+  "next": {
+    "title": "Mass Assignment Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/mass-assignment-fuzzer"
+  }
+}

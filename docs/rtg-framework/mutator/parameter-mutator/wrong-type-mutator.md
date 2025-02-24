@@ -1,0 +1,2 @@
+# Wrong Type Parameter Mutator
+This mutator is designed to change the type of a parameter incorrectly. First, it is checked whether the parameter is mutable (i.e. type string, number or boolean). The original parameter is replaced with a different type. For example, a string can become a number or a boolean. The choice is made randomly, and the new parameter receives a random value from a ValueProvider. The aim is to simulate erroneous inputs to test whether the system detects and correctly handles type errors in the parameters. 

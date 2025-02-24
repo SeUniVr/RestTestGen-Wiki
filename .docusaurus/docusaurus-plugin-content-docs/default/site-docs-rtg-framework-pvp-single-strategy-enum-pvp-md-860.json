@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/pvp/single-strategy/enum-pvp",
+  "title": "Enum Parameter Value Provider",
+  "description": "When a parameter is requested, this class uses the enumerated values (enum) defined in the OpenAPI specification. By default, only the values of the specific parameter are taken, however, it is also possible to set `SAMENAME` or `SAMENORMALISED_NAME`.",
+  "source": "@site/docs/rtg-framework/pvp/single-strategy/enum-pvp.md",
+  "sourceDirName": "rtg-framework/pvp/single-strategy",
+  "slug": "/rtg-framework/pvp/single-strategy/enum-pvp",
+  "permalink": "/docs/rtg-framework/pvp/single-strategy/enum-pvp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Default Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/default-pvp"
+  },
+  "next": {
+    "title": "Examples Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/examples-pvp"
+  }
+}

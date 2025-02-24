@@ -1,0 +1,4 @@
+# Local Dictionary Priority Parameter Value Provider
+This technique attempts to value a ```LeafParameter```, using different strategies, but still giving priority to the use of the local dictionary. Nevertheless, if the local dictionary does not have a valid value, it switches to other strategies.   
+The function ```provideValueFor(LeafParameter leafParameter)``` attempts to obtain a value from the local dictionary, if the local dictionary is available, the ResponseDictionaryParameterValueProvider is used and if the dictionary has a usable value, that is taken.   
+However, if the local dictionary has no available values, alternative sources such as Enum, Examples or Default values are tried. Finally, if none of the previous strategies provides a value, a random value is generated and, in this case, ```Random``` or ```NarrowRandom``` is chosen.   

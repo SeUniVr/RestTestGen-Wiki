@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/fuzzer/nominal-fuzzer",
+  "title": "Nominal Fuzzer",
+  "description": "This fuzzer is designed to generate nominal test sequences for interaction with a REST API. The main purpose of this class is to create test sequences that simulate different input scenarios to test the behavior of an operation.  The `generateTestSequence()` method generates a single test sequence. First, the original operation is cloned into an “editableOperation”. Let us look in detail at the various methods used to value the parameters:",
+  "source": "@site/docs/rtg-framework/fuzzer/nominal-fuzzer.md",
+  "sourceDirName": "rtg-framework/fuzzer",
+  "slug": "/rtg-framework/fuzzer/nominal-fuzzer",
+  "permalink": "/docs/rtg-framework/fuzzer/nominal-fuzzer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mass Assignment Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/mass-assignment-fuzzer"
+  },
+  "next": {
+    "title": "Subsequence Error Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/subsequence-error-fuzzer"
+  }
+}

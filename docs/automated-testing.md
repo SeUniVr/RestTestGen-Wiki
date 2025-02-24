@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# A Brief Recap
+# Automated Software Testing
 
 Typically, an **API** (Application Programming Interface) is a set of rules and protocols that allow software to communicate with each other by exchanging data and information. API architecture, in general, is explained in terms of **client** and **server**: there is an application that sends a request (client) and an application that sends the response (server).
 

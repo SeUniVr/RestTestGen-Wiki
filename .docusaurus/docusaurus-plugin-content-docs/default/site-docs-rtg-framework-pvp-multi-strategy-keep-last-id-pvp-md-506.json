@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/pvp/multi-strategy/keep-last-id-pvp",
+  "title": "Keep Last ID Parameter Value Provider",
+  "description": "The main objective of this strategy is to maintain and reuse the last observed ID value for a parameter. In this way, an intelligent approach is attempted, avoiding generating new IDs when an existing one can be reused. If the value is not available, on the other hand, various strategies are tried until random generation.",
+  "source": "@site/docs/rtg-framework/pvp/multi-strategy/keep-last-id-pvp.md",
+  "sourceDirName": "rtg-framework/pvp/multi-strategy",
+  "slug": "/rtg-framework/pvp/multi-strategy/keep-last-id-pvp",
+  "permalink": "/docs/rtg-framework/pvp/multi-strategy/keep-last-id-pvp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Global Dictionary Priority Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/multi-strategy/global-dictionary-pvp"
+  },
+  "next": {
+    "title": "Local Dictionary Priority Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/multi-strategy/local-dictionary"
+  }
+}

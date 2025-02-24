@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/operation-sorter/static/random-operation-sorter",
+  "title": "Random Operation Sorter",
+  "description": "This class implements a random order of the operations to be tested. A list of operations is retrieved from the environment and then a “shuffle” is applied to this list. Unlike the class described above, no structured strategy is followed.",
+  "source": "@site/docs/rtg-framework/operation-sorter/static/random-operation-sorter.md",
+  "sourceDirName": "rtg-framework/operation-sorter/static",
+  "slug": "/rtg-framework/operation-sorter/static/random-operation-sorter",
+  "permalink": "/docs/rtg-framework/operation-sorter/static/random-operation-sorter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Static Operation Sorter",
+    "permalink": "/docs/category/static-operation-sorter"
+  },
+  "next": {
+    "title": "Dynamic Operation Sorter",
+    "permalink": "/docs/category/dynamic-operation-sorter"
+  }
+}

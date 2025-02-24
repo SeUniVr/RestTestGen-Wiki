@@ -1,0 +1,5 @@
+# JSON Parser Interaction Processor
+This component takes care of interpreting and converting the JSON responses received from the API into an internal parameter structure. This makes the response data more easily usable for subsequent tests.   
+
+First, it is checked whether the response of the interaction can be processed. A response is considered valid if the test was successful and the response body is not empty and has an acceptable size (between 1byte and 1MB).  
+If these conditions are met, then an attempt is made to convert the response into a JSON object and, if the conversion is successful, the internal structure is updated with the extracted data. If the conversion, however, fails, the processor checks whether the content of the response is declared as JSON in the content-type headers. If yes, it records a warning in the logs, indicating that the content may be corrupt or malformed.

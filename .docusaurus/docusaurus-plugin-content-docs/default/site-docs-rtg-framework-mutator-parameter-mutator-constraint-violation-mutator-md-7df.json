@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/mutator/parameter-mutator/constraint-violation-mutator",
+  "title": "Constraint Violation Parameter Mutator",
+  "description": "Is a mutator that alters parameter values so as to violate their constraints.  First, it is checked whether a parameter is mutable (i.e. whether it is an enum with predefined values, a string with minimum or maximum length constraints, a number with upper or lower bounds). If the parameter is mutable, then it is modified to violate its constraints. Thus, if the parameter is an enum, a random value is set that does not belong to the list of values; if the parameter is a string, the length constraint is violated; if the parameter is a number, finally, the minimum or maximum value constraint is violated. The aim is to generate invalid input to test the behaviour of the system in the event of errors.",
+  "source": "@site/docs/rtg-framework/mutator/parameter-mutator/constraint-violation-mutator.md",
+  "sourceDirName": "rtg-framework/mutator/parameter-mutator",
+  "slug": "/rtg-framework/mutator/parameter-mutator/constraint-violation-mutator",
+  "permalink": "/docs/rtg-framework/mutator/parameter-mutator/constraint-violation-mutator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Missing Required Parameter Mutator",
+    "permalink": "/docs/rtg-framework/mutator/parameter-mutator/missing-required-mutator"
+  },
+  "next": {
+    "title": "Wrong Type Parameter Mutator",
+    "permalink": "/docs/rtg-framework/mutator/parameter-mutator/wrong-type-mutator"
+  }
+}

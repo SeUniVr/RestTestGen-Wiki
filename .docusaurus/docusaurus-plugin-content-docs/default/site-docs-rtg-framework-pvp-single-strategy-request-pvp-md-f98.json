@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/pvp/single-strategy/request-pvp",
+  "title": "Request Dictionary Parameter Value Provider",
+  "description": "Through this value provider, parameters can be given a value using a global request dictionary. A dictionary is used that collects the values used in previous requests, allowing them to be reused in subsequent requests.",
+  "source": "@site/docs/rtg-framework/pvp/single-strategy/request-pvp.md",
+  "sourceDirName": "rtg-framework/pvp/single-strategy",
+  "slug": "/rtg-framework/pvp/single-strategy/request-pvp",
+  "permalink": "/docs/rtg-framework/pvp/single-strategy/request-pvp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Last Response Dictionary Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-response-pvp"
+  },
+  "next": {
+    "title": "Response Dictionary Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/response-pvp"
+  }
+}

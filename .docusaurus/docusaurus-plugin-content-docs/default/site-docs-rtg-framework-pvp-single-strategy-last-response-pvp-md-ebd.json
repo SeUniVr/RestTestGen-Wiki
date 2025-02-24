@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/pvp/single-strategy/last-response-pvp",
+  "title": "Last Response Dictionary Parameter Value Provider",
+  "description": "Similar to the class described above, values from a dictionary are also used here. However, the values are taken from a global response dictionary, i.e. from data obtained from the answers of executed requests. By default, the class uses the global response dictionary which is available via `Environment.getInstance()`. The constructor sets the `SAMENORMALISEDNAME` mode, allowing values to be collected not only by the exact name of the parameter, but also by its normalised name.",
+  "source": "@site/docs/rtg-framework/pvp/single-strategy/last-response-pvp.md",
+  "sourceDirName": "rtg-framework/pvp/single-strategy",
+  "slug": "/rtg-framework/pvp/single-strategy/last-response-pvp",
+  "permalink": "/docs/rtg-framework/pvp/single-strategy/last-response-pvp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Last Request Dictionary Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-request-pvp"
+  },
+  "next": {
+    "title": "Request Dictionary Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/request-pvp"
+  }
+}

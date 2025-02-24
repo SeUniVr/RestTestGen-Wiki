@@ -1,0 +1,23 @@
+{
+  "id": "rtg",
+  "title": "RestTestGen",
+  "description": "RestTestGen is a testing framework created to automatically generate test cases for the REST API. The assumption made a priori is that one cannot have direct access to the source code, but only to the OpenAPI specification, and that one can interact with the REST API directly via the HTTP protocol.",
+  "source": "@site/docs/rtg.md",
+  "sourceDirName": ".",
+  "slug": "/rtg",
+  "permalink": "/docs/rtg",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Automated Software Testing",
+    "permalink": "/docs/automated-testing"
+  },
+  "next": {
+    "title": "RTG as Framework",
+    "permalink": "/docs/category/rtg-as-framework"
+  }
+}

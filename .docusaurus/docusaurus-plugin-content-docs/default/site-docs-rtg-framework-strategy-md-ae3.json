@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/strategy",
+  "title": "Strategy",
+  "description": "To execute RestTestGen, the `main()` method inside the App class within the package `io.resttestgen.boot.cli` is executed. Within the project, there is also a configuration file `rtg-config.yml` in which anyone wishing to use the tool must specify the strategy to be used and the API to be tested.",
+  "source": "@site/docs/rtg-framework/strategy.md",
+  "sourceDirName": "rtg-framework",
+  "slug": "/rtg-framework/strategy",
+  "permalink": "/docs/rtg-framework/strategy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Writer",
+    "permalink": "/docs/rtg-framework/writer"
+  },
+  "next": {
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp"
+  }
+}

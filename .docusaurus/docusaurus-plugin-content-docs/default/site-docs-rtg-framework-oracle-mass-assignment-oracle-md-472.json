@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/oracle/mass-assignment-oracle",
+  "title": "Mass Assignment Oracle",
+  "description": "This oracle checks whether a test sequence has exposed a Mass Assignment vulnerability. This vulnerability occurs when an attacker is able to modify unintended fields of an object sent to a REST API.",
+  "source": "@site/docs/rtg-framework/oracle/mass-assignment-oracle.md",
+  "sourceDirName": "rtg-framework/oracle",
+  "slug": "/rtg-framework/oracle/mass-assignment-oracle",
+  "permalink": "/docs/rtg-framework/oracle/mass-assignment-oracle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Status Code Oracle",
+    "permalink": "/docs/rtg-framework/oracle/status-code-oracle"
+  },
+  "next": {
+    "title": "Producer Consumer Oracle",
+    "permalink": "/docs/rtg-framework/oracle/producer-consumer-oracle"
+  }
+}

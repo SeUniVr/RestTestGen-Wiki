@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/pvp/multi-strategy/multi-strategy",
+  "title": "Multi Strategy",
+  "description": "Multi strategies include the classes: `EnumAndExamplePriorityParameterValueProvider`, `RandomProviderParameterValueProvider`, `KeepLastIdParameterValueProvider`, `LocalDictionaryPriorityParameterValueProvider`.",
+  "source": "@site/docs/rtg-framework/pvp/multi-strategy/multi-strategy.md",
+  "sourceDirName": "rtg-framework/pvp/multi-strategy",
+  "slug": "/rtg-framework/pvp/multi-strategy/",
+  "permalink": "/docs/rtg-framework/pvp/multi-strategy/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Response Dictionary Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/response-pvp"
+  },
+  "next": {
+    "title": "Enum and Example Priority Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/multi-strategy/enum-example-pvp"
+  }
+}

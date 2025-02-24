@@ -4,11 +4,11 @@ This set of classes is used to provide a value to various parameters, based on d
 ## Single Strategy
 Individual strategies include the classes: ```DefaultParameterValueProvider```, ```EnumParameterValueProvider```, ```ExamplesParameterValueProvider```, ```LastRequestDictionaryParameterValueProvider```, ```LastResponseDictionaryValueProvider```, ```RequestDictionaryParameterValueProvider```, ```ResponseDictionaryParameterValueProvider```. They all extend the ```CountableParameterValueProvider``` class, which in turn extends the abstract ```ParameterValueProvider``` class. An example of a hierarchy can be found in the figure below.
 
-![Alt text](../../static/img/vp1.png)
+![Alt text](../../../static/img/vp1.png)
 
 In addition, we also have the ```RandomParameterValueProvider``` and ```NarrowRandomParameterValueProvider``` classes that directly extend the ```ParameterValueProvider``` class. An example of the hierarchy is shown in the figure below.
 
-![Alt text](../../static/img/vp2.png)
+![Alt text](../../../static/img/vp2.png)
 
 The ```CountableParameterValueProvider```  class extends ``` ParameterValueProvider```  and introduces the concept of a deterministic, finite source of values. Thus, parameter values are not generated randomly but are taken from a predefined and finite set.   
 The class offers three ways of determining the source of values: 

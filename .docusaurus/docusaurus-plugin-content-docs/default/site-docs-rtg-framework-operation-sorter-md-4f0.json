@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/operation-sorter",
+  "title": "Operation Sorter",
+  "description": "There are two type of operation sorter, the static and the dynamic one. Both of them extend the `OperationSorter` class.",
+  "source": "@site/docs/rtg-framework/operation-sorter.md",
+  "sourceDirName": "rtg-framework",
+  "slug": "/rtg-framework/operation-sorter",
+  "permalink": "/docs/rtg-framework/operation-sorter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Oracle",
+    "permalink": "/docs/rtg-framework/oracle"
+  },
+  "next": {
+    "title": "Mutator",
+    "permalink": "/docs/rtg-framework/mutator"
+  }
+}

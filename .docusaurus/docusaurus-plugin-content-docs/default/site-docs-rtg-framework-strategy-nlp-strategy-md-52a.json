@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/strategy/nlp-strategy",
+  "title": "NLP Strategy",
+  "description": "The idea of this strategy is to apply natural language processing techniques to improve the testing of REST APIs. Given an OpenAPI specification, some additional rules are extracted based on the human-readable part of the specification. Consider, for example, a particular specification that describes the parameters of a particular request. We may, for example, have the parameter `language` to which is associated a `description` in which the accepted values are made explicit. Similarly, we may have a `count` parameter to which, again, is associated a `description` field in which it is specified that the maximum value is `50`. In these two cases, a normal automated testing tool could miss these characteristics and thus create unsuitable or failing test cases.",
+  "source": "@site/docs/rtg-framework/strategy/nlp-strategy.md",
+  "sourceDirName": "rtg-framework/strategy",
+  "slug": "/rtg-framework/strategy/nlp-strategy",
+  "permalink": "/docs/rtg-framework/strategy/nlp-strategy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mass Assignment Strategy",
+    "permalink": "/docs/rtg-framework/strategy/mass-assignment-strategy"
+  },
+  "next": {
+    "title": "Writer",
+    "permalink": "/docs/category/writer"
+  }
+}

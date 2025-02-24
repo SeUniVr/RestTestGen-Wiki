@@ -1,0 +1,2 @@
+# Multi Strategy
+Multi strategies include the classes: ```EnumAndExamplePriorityParameterValueProvider```, ```RandomProviderParameterValueProvider```, ```KeepLastIdParameterValueProvider```, ```LocalDictionaryPriorityParameterValueProvider```.

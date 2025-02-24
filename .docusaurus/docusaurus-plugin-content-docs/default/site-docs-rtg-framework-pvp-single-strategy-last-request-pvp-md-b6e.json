@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/pvp/single-strategy/last-request-pvp",
+  "title": "Last Request Dictionary Parameter Value Provider",
+  "description": "A global dictionary is relied upon to value parameters with this technique. This contains the values collected from previous API requests, allowing the most recent data to be reused. By default, the provider uses the global dictionary of requests that is available in the Environment. This dictionary contains DictionaryEntries that associate parameters with specific values recorded during previous API requests. The constructor sets the mode `SAMENORMALISEDNAME`, which means that values will be collected not only from parameters with the same name, but also from those with the normalised name.",
+  "source": "@site/docs/rtg-framework/pvp/single-strategy/last-request-pvp.md",
+  "sourceDirName": "rtg-framework/pvp/single-strategy",
+  "slug": "/rtg-framework/pvp/single-strategy/last-request-pvp",
+  "permalink": "/docs/rtg-framework/pvp/single-strategy/last-request-pvp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Examples Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/examples-pvp"
+  },
+  "next": {
+    "title": "Last Response Dictionary Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-response-pvp"
+  }
+}
