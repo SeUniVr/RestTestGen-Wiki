@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Fuzzer",
-    "permalink": "/docs/category/fuzzer"
+    "title": "Parameters",
+    "permalink": "/docs/rtg-framework/datatype/parameters"
   },
   "next": {
-    "title": "Mass Assignment Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/mass-assignment-fuzzer"
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/"
   }
 }

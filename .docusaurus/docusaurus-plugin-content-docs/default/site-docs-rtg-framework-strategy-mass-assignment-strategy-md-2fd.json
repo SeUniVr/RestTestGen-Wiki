@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Nominal and Error Strategy",
-    "permalink": "/docs/rtg-framework/strategy/nominal-error-strategy"
-  },
-  "next": {
-    "title": "NLP Strategy",
-    "permalink": "/docs/rtg-framework/strategy/nlp-strategy"
-  }
+  "frontMatter": {}
 }

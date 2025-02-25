@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Parameter Mutator",
-    "permalink": "/docs/category/parameter-mutator"
-  },
-  "next": {
-    "title": "Constraint Violation Parameter Mutator",
-    "permalink": "/docs/rtg-framework/mutator/parameter-mutator/constraint-violation-mutator"
-  }
+  "frontMatter": {}
 }

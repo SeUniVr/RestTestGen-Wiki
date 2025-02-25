@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Static Operation Sorter",
-    "permalink": "/docs/category/static-operation-sorter"
-  },
-  "next": {
-    "title": "Dynamic Operation Sorter",
-    "permalink": "/docs/category/dynamic-operation-sorter"
-  }
+  "frontMatter": {}
 }

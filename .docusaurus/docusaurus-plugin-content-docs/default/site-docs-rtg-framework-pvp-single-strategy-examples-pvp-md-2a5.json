@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Enum Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/enum-pvp"
-  },
-  "next": {
-    "title": "Last Request Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-request-pvp"
-  }
+  "frontMatter": {}
 }

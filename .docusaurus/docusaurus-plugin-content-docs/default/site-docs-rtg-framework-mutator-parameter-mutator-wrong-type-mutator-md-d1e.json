@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Constraint Violation Parameter Mutator",
-    "permalink": "/docs/rtg-framework/mutator/parameter-mutator/constraint-violation-mutator"
-  },
-  "next": {
-    "title": "Operation Sorter",
-    "permalink": "/docs/category/operation-sorter"
-  }
+  "frontMatter": {}
 }

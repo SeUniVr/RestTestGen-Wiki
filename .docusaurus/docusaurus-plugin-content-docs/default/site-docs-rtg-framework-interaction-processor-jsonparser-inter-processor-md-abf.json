@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Graph Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/graph-inter-processor"
-  },
-  "next": {
-    "title": "NLP Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/nlp-inter-processor"
-  }
+  "frontMatter": {}
 }

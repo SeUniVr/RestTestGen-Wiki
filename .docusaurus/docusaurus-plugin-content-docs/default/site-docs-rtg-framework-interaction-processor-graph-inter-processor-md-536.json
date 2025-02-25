@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Interaction Processor",
-    "permalink": "/docs/category/interaction-processor"
-  },
-  "next": {
-    "title": "JSON Parser Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/jsonparser-inter-processor"
-  }
+  "frontMatter": {}
 }

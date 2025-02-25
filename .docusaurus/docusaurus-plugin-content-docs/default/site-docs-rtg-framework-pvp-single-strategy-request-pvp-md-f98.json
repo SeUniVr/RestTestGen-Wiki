@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Last Response Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-response-pvp"
-  },
-  "next": {
-    "title": "Response Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/response-pvp"
-  }
+  "frontMatter": {}
 }

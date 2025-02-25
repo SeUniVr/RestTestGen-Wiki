@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Operation Mutator",
-    "permalink": "/docs/category/operation-mutator"
-  },
-  "next": {
-    "title": "Parameter Mutator",
-    "permalink": "/docs/category/parameter-mutator"
-  }
+  "frontMatter": {}
 }

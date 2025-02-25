@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "JSON Parser Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/jsonparser-inter-processor"
-  },
-  "next": {
-    "title": "Request Dictionary Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/request-dictionary-inter-processor"
-  }
+  "frontMatter": {}
 }

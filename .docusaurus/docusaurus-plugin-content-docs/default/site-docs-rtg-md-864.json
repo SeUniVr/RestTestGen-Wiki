@@ -11,13 +11,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
+  "sidebar": "overviewSidebar",
+  "next": {
     "title": "Automated API Testing",
     "permalink": "/docs/automated-testing"
-  },
-  "next": {
-    "title": "RTG as Framework",
-    "permalink": "/docs/category/rtg-as-framework"
   }
 }

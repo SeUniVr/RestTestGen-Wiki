@@ -10,10 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Local Dictionary Priority Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/local-dictionary"
-  }
+  "frontMatter": {}
 }

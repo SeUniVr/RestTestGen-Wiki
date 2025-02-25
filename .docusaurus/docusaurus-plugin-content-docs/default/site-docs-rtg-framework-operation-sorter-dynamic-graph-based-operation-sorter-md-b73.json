@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Dynamic Operation Sorter",
-    "permalink": "/docs/category/dynamic-operation-sorter"
-  },
-  "next": {
-    "title": "Oracle",
-    "permalink": "/docs/category/oracle"
-  }
+  "frontMatter": {}
 }

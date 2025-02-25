@@ -10,5 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Interaction Processor",
+    "permalink": "/docs/rtg-framework/interaction-processor/"
+  },
+  "next": {
+    "title": "Oracle",
+    "permalink": "/docs/rtg-framework/oracle/"
+  }
 }

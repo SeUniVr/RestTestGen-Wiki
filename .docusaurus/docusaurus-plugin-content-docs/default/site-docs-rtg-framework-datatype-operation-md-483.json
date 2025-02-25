@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Parameters",
-    "permalink": "/docs/rtg-framework/datatype/parameters"
-  },
-  "next": {
-    "title": "Fuzzer",
-    "permalink": "/docs/category/fuzzer"
-  }
+  "frontMatter": {}
 }

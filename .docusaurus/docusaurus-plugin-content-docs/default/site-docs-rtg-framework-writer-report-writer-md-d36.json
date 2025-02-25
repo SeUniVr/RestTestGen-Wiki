@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Coverage Report Writer",
-    "permalink": "/docs/rtg-framework/writer/coverage-report"
-  },
-  "next": {
-    "title": "RestAssured Writer",
-    "permalink": "/docs/rtg-framework/writer/rest-assured-writer"
-  }
+  "frontMatter": {}
 }

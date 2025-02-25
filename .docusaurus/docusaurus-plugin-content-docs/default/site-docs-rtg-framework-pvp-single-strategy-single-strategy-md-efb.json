@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Parameter Value Provider",
-    "permalink": "/docs/category/parameter-value-provider"
-  },
-  "next": {
-    "title": "Default Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/default-pvp"
-  }
+  "frontMatter": {}
 }

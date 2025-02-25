@@ -11,13 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
+  "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Datatype",
-    "permalink": "/docs/category/datatype"
+    "title": "Operation Sorter",
+    "permalink": "/docs/rtg-framework/operation-sorter/"
   },
   "next": {
-    "title": "Operation",
-    "permalink": "/docs/rtg-framework/datatype/operation"
+    "title": "Error Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/error-fuzzer"
   }
 }

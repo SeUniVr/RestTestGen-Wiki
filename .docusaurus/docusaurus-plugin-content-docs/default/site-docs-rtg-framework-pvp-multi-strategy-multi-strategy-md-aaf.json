@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Response Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/response-pvp"
-  },
-  "next": {
-    "title": "Enum and Example Priority Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/enum-example-pvp"
-  }
+  "frontMatter": {}
 }

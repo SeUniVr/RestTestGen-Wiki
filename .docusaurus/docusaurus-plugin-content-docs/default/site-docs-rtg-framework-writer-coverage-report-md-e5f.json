@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Writer",
-    "permalink": "/docs/category/writer"
-  },
-  "next": {
-    "title": "Report Writer",
-    "permalink": "/docs/rtg-framework/writer/report-writer"
-  }
+  "frontMatter": {}
 }

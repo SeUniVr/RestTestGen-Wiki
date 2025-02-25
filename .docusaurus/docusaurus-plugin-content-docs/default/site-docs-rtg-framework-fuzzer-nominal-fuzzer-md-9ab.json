@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Mass Assignment Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/mass-assignment-fuzzer"
-  },
-  "next": {
-    "title": "Subsequence Error Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/subsequence-error-fuzzer"
-  }
+  "frontMatter": {}
 }

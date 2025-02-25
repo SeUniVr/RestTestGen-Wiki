@@ -1,8 +1,0 @@
-{
-  "label": "RestTestGen - Tool Overview",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "RestTestGen is a tool created to automatically generate test casesfor REST APIs. The tool assumes that the source code of the service to be tested cannot be accessed, but one can rely on the OpenAPI specification and can interact with the REST API via the HTTP protocol. The OpenAPI specification of the REST API makes it possible to know what operations are available, what format of input data is needed to enable the tool to perform well-formed HTTP requests, and the format of the responses or output data. The advantage of using a black-box approach is to be able to create a tool that is independent of the programming language with which the REST service has been implemented. Furthermore, for systems with complex architectures consisting of many micro-services, implementing a tool with a white box approach can be much more difficult."
-  }
-}

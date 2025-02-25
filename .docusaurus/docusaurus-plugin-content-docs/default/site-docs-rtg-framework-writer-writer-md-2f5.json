@@ -10,5 +10,10 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Oracle",
+    "permalink": "/docs/rtg-framework/oracle/"
+  }
 }

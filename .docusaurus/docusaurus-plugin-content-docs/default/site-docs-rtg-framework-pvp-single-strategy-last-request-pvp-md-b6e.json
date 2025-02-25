@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Examples Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/examples-pvp"
-  },
-  "next": {
-    "title": "Last Response Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-response-pvp"
-  }
+  "frontMatter": {}
 }

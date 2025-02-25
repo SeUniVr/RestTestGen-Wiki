@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Keep Last ID Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/keep-last-id-pvp"
-  },
-  "next": {
-    "title": "Random Provider Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/random-pvp"
-  }
+  "frontMatter": {}
 }

@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Request Dictionary Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/request-dictionary-inter-processor"
-  },
-  "next": {
-    "title": "Mutator",
-    "permalink": "/docs/category/mutator"
-  }
+  "frontMatter": {}
 }

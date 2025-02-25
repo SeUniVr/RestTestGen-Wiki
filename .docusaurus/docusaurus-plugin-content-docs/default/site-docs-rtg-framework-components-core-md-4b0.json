@@ -1,0 +1,14 @@
+{
+  "id": "rtg-framework/components/core",
+  "title": "Core Components",
+  "description": "The tool provides researchers and practitioners with some “core components” that are presented in detail below.",
+  "source": "@site/docs/rtg-framework/components/core.md",
+  "sourceDirName": "rtg-framework/components",
+  "slug": "/rtg-framework/components/core",
+  "permalink": "/docs/rtg-framework/components/core",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Enum and Example Priority Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/enum-example-pvp"
-  },
-  "next": {
-    "title": "Keep Last ID Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/keep-last-id-pvp"
-  }
+  "frontMatter": {}
 }

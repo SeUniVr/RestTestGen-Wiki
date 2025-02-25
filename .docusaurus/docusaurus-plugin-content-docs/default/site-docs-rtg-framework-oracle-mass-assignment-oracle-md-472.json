@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Status Code Oracle",
-    "permalink": "/docs/rtg-framework/oracle/status-code-oracle"
-  },
-  "next": {
-    "title": "Producer Consumer Oracle",
-    "permalink": "/docs/rtg-framework/oracle/producer-consumer-oracle"
-  }
+  "frontMatter": {}
 }

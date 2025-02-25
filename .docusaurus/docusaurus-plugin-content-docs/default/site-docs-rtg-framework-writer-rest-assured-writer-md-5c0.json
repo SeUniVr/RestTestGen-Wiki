@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Report Writer",
-    "permalink": "/docs/rtg-framework/writer/report-writer"
-  },
-  "next": {
-    "title": "Parameter Value Provider",
-    "permalink": "/docs/category/parameter-value-provider"
-  }
+  "frontMatter": {}
 }

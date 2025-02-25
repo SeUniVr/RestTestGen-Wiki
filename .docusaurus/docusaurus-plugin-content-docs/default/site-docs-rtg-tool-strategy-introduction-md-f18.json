@@ -1,0 +1,19 @@
+{
+  "id": "rtg-tool/strategy/introduction",
+  "title": "Strategy",
+  "description": "To execute RestTestGen, the `main()` method inside the App class within the package `io.resttestgen.boot.cli` is executed. Within the project, there is also a configuration file `rtg-config.yml` in which anyone wishing to use the tool must specify the strategy to be used and the API to be tested.",
+  "source": "@site/docs/rtg-tool/strategy/introduction.md",
+  "sourceDirName": "rtg-tool/strategy",
+  "slug": "/rtg-tool/strategy/introduction",
+  "permalink": "/docs/rtg-tool/strategy/introduction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "strategiesSidebar",
+  "next": {
+    "title": "Nominal and Error Strategy",
+    "permalink": "/docs/rtg-tool/strategy/nominal-error-strategy"
+  }
+}

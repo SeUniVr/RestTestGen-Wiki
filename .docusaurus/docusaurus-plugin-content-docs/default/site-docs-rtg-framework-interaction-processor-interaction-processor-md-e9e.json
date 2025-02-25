@@ -10,5 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/"
+  },
+  "next": {
+    "title": "Mutator",
+    "permalink": "/docs/rtg-framework/mutator/"
+  }
 }

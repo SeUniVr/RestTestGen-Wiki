@@ -14,8 +14,8 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
-  "next": {
+  "sidebar": "overviewSidebar",
+  "previous": {
     "title": "RestTestGen",
     "permalink": "/docs/rtg"
   }

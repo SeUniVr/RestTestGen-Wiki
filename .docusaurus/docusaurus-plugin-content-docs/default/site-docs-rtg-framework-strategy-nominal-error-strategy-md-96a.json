@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Strategy",
-    "permalink": "/docs/category/strategy"
-  },
-  "next": {
-    "title": "Mass Assignment Strategy",
-    "permalink": "/docs/rtg-framework/strategy/mass-assignment-strategy"
-  }
+  "frontMatter": {}
 }

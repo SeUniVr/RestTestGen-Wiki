@@ -1,0 +1,23 @@
+{
+  "id": "rtg-tool/strategy/nominal-error-strategy",
+  "title": "Nominal and Error Strategy",
+  "description": "The objective of this strategy is to successfully test all the operations in the REST API that are to be investigated. To do this, an ordering based on the Operation Dependency Graph (ODG) is defined. For all other responsibilities (generation of input values, oracles and writers), this strategy is based on basic components available in the framework.",
+  "source": "@site/docs/rtg-tool/strategy/nominal-error-strategy.md",
+  "sourceDirName": "rtg-tool/strategy",
+  "slug": "/rtg-tool/strategy/nominal-error-strategy",
+  "permalink": "/docs/rtg-tool/strategy/nominal-error-strategy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "strategiesSidebar",
+  "previous": {
+    "title": "Strategy",
+    "permalink": "/docs/rtg-tool/strategy/introduction"
+  },
+  "next": {
+    "title": "Mass Assignment Strategy",
+    "permalink": "/docs/rtg-tool/strategy/mass-assignment-strategy"
+  }
+}

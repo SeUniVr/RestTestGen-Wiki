@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Nominal Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/nominal-fuzzer"
-  },
-  "next": {
-    "title": "Interaction Processor",
-    "permalink": "/docs/category/interaction-processor"
-  }
+  "frontMatter": {}
 }

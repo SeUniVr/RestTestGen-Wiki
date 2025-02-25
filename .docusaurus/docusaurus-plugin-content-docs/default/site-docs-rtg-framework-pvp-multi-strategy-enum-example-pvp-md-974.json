@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Multi Strategy",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/"
-  },
-  "next": {
-    "title": "Global Dictionary Priority Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/multi-strategy/global-dictionary-pvp"
-  }
+  "frontMatter": {}
 }

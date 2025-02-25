@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Mass Assignment Oracle",
-    "permalink": "/docs/rtg-framework/oracle/mass-assignment-oracle"
-  },
-  "next": {
-    "title": "Strategy",
-    "permalink": "/docs/category/strategy"
-  }
+  "frontMatter": {}
 }

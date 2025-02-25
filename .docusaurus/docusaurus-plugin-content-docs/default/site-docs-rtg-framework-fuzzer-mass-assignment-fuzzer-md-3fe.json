@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Error Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/error-fuzzer"
-  },
-  "next": {
-    "title": "Nominal Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/nominal-fuzzer"
-  }
+  "frontMatter": {}
 }

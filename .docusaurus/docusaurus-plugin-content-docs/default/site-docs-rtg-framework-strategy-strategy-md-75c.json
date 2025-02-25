@@ -10,5 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Mutator",
+    "permalink": "/docs/rtg-framework/mutator/"
+  },
+  "next": {
+    "title": "Oracle",
+    "permalink": "/docs/rtg-framework/oracle/"
+  }
 }

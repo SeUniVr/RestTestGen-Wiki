@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "NLP Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/nlp-inter-processor"
-  },
-  "next": {
-    "title": "Response Dictionary Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/response-dictionary-inter-processor"
-  }
+  "frontMatter": {}
 }

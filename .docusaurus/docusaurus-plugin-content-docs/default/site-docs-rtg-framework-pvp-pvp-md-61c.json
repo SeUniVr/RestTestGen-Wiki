@@ -10,5 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Error Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/error-fuzzer"
+  },
+  "next": {
+    "title": "Interaction Processor",
+    "permalink": "/docs/rtg-framework/interaction-processor/"
+  }
 }

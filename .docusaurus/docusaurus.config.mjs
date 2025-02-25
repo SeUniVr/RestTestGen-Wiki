@@ -41,9 +41,21 @@ export default {
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "overviewSidebar",
           "position": "left",
           "label": "Overview"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "frameworkSidebar",
+          "position": "left",
+          "label": "RTG Framework"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "strategiesSidebar",
+          "position": "left",
+          "label": "Available Testing Strategies"
         },
         {
           "href": "https://github.com/SeUniVr/RestTestGen",

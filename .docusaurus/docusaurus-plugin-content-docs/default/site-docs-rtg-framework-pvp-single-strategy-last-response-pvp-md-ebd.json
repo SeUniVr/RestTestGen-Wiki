@@ -10,14 +10,5 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Last Request Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/last-request-pvp"
-  },
-  "next": {
-    "title": "Request Dictionary Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/single-strategy/request-pvp"
-  }
+  "frontMatter": {}
 }
