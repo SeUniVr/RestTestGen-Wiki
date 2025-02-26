@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/"
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/"
   },
   "next": {
     "title": "Oracle",

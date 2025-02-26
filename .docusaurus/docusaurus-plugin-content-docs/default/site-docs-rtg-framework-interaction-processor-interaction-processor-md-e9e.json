@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/"
+    "title": "Operation Dependency Graph",
+    "permalink": "/docs/rtg-framework/odg/"
   },
   "next": {
-    "title": "Mutator",
-    "permalink": "/docs/rtg-framework/mutator/"
+    "title": "Extensible Components",
+    "permalink": "/docs/category/extensible-components"
   }
 }

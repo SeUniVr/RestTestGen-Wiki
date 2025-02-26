@@ -1,7 +1,7 @@
 {
   "id": "rtg-tool/strategy/introduction",
-  "title": "Strategy",
-  "description": "To execute RestTestGen, the `main()` method inside the App class within the package `io.resttestgen.boot.cli` is executed. Within the project, there is also a configuration file `rtg-config.yml` in which anyone wishing to use the tool must specify the strategy to be used and the API to be tested.",
+  "title": "Introduction",
+  "description": "Within this section of the documentation, you will find a description of the strategies that have already been implemented within RestTestGen. In fact, you can test your API using the strategies that have already been made available, instead of creating your own.",
   "source": "@site/docs/rtg-tool/strategy/introduction.md",
   "sourceDirName": "rtg-tool/strategy",
   "slug": "/rtg-tool/strategy/introduction",

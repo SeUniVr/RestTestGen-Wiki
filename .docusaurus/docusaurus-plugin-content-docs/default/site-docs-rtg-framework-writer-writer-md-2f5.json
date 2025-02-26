@@ -15,5 +15,9 @@
   "previous": {
     "title": "Oracle",
     "permalink": "/docs/rtg-framework/oracle/"
+  },
+  "next": {
+    "title": "Strategy",
+    "permalink": "/docs/rtg-framework/strategy/"
   }
 }

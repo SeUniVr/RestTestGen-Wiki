@@ -23,21 +23,33 @@ const sidebars: SidebarsConfig = {
     'rtg-framework/components/core-extensibile-description',
     {
       type: 'category',
-      label: 'Components',
+      label: 'Core Components',
       link: {
         type: 'generated-index',
-        description:"This section presents the various components within the framework and their implementations."
-      }, 
-      items: ['rtg-framework/operation-sorter/operation-sorter',
+        description: 'This section presents the core components within the RTG framework.'
+      },
+      items: ['rtg-framework/parser/parser',
               'rtg-framework/datatype/parameters',
-              'rtg-framework/fuzzer/error-fuzzer',
-              'rtg-framework/pvp/pvp',
+              'rtg-framework/datatype/operation',
+              'rtg-framework/odg/odg',
               'rtg-framework/interaction-processor/interaction-processor',
-              'rtg-framework/mutator/mutator', 
-              'rtg-framework/oracle/oracle',
-              'rtg-framework/writer/writer'
       ]
-    }
+    },
+    {
+      type: 'category',
+      label: 'Extensible Components',
+      link: {
+        type: 'generated-index',
+        description: 'This section presents the extensible components within the RTG framework.'
+      },
+      items: ['rtg-framework/operation-sorter/operation-sorter',
+              'rtg-framework/pvp/pvp',
+              'rtg-framework/mutator/mutator',
+              'rtg-framework/oracle/oracle',
+              'rtg-framework/writer/writer',
+              'rtg-framework/strategy/strategy',
+      ]
+    },
   ],
 
   strategiesSidebar: [

@@ -49,26 +49,30 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f5b": {
+  "/docs-b63": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-b8a": {
+  "/docs-fb1": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-40e": {
+  "/docs-a05": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/automated-testing-e5a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-automated-testingca-7-796"
   },
-  "/docs/category/components-af3": {
+  "/docs/category/core-components-eef": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-components-4-f-2-437"
+    "__props": "__props---docs-category-core-components-5-c-1-c99"
+  },
+  "/docs/category/extensible-components-004": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-extensible-componentsc-01-853"
   },
   "/docs/rtg-d2d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -86,7 +90,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-components-extensible-810-e02"
   },
-  "/docs/rtg-framework/datatype/operation-d39": {
+  "/docs/rtg-framework/datatype/operation-e1d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-datatype-operation-483-728"
   },
@@ -98,7 +102,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-fuzzer-cf-6-f5c"
   },
-  "/docs/rtg-framework/fuzzer/error-fuzzer-9e6": {
+  "/docs/rtg-framework/fuzzer/error-fuzzer-e02": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-fuzzer-error-fuzzer-948-8ea"
   },
@@ -158,6 +162,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-mutator-parameter-mutator-wrong-type-mutatord-1-e-6ab"
   },
+  "/docs/rtg-framework/odg/-84f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rtg-framework-odg-ca-0-02d"
+  },
   "/docs/rtg-framework/operation-sorter/-f9d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-operation-sorter-aec-f23"
@@ -189,6 +197,10 @@
   "/docs/rtg-framework/oracle/status-code-oracle-547": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-oracle-status-code-oracled-91-361"
+  },
+  "/docs/rtg-framework/parser/-bfc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rtg-framework-parser-287-4a1"
   },
   "/docs/rtg-framework/pvp/-90c": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -250,6 +262,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-pvp-single-strategy-response-pvp-1-eb-4a4"
   },
+  "/docs/rtg-framework/strategy/-ee3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rtg-framework-strategy-75-c-608"
+  },
   "/docs/rtg-framework/writer/-fb5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-writer-2-f-5-57a"
@@ -265,10 +281,6 @@
   "/docs/rtg-framework/writer/rest-assured-writer-fd9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-writer-rest-assured-writer-5-c-0-66f"
-  },
-  "/docs/rtg-tool/prova-b2d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-rtg-tool-provaecb-c33"
   },
   "/docs/rtg-tool/strategy/-64b": {
     "__comp": "__comp---theme-doc-item-178-a40",

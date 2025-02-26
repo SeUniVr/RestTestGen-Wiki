@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Error Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/error-fuzzer"
+    "title": "Operation Sorter",
+    "permalink": "/docs/rtg-framework/operation-sorter/"
   },
   "next": {
-    "title": "Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/"
+    "title": "Mutator",
+    "permalink": "/docs/rtg-framework/mutator/"
   }
 }

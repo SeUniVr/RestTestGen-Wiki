@@ -1,4 +1,4 @@
-# RTG Components
+# Architecture
 
 The architecture of RTG can be seen in the figure. It provides developers and researchers with two types of components. it is possible to find core components that work out-of-the box, and extensible components that can be re-implemented to give developers, or those who need them, the possibility of creating totally customised strategies. 
 Core and extensible components are the basic building blocks for new testing approaches. Complete and functioning test strategies are already available in the framework as examples of how to instantiate and assemble all necessary components.

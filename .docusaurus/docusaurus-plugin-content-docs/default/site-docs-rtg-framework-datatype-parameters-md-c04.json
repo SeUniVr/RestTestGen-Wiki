@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Operation Sorter",
-    "permalink": "/docs/rtg-framework/operation-sorter/"
+    "title": "OpenApi Parser",
+    "permalink": "/docs/rtg-framework/parser/"
   },
   "next": {
-    "title": "Error Fuzzer",
-    "permalink": "/docs/rtg-framework/fuzzer/error-fuzzer"
+    "title": "Operation",
+    "permalink": "/docs/rtg-framework/datatype/operation"
   }
 }

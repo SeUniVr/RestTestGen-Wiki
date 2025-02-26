@@ -6,7 +6,7 @@
 export default {
   "title": "RestTestGen",
   "tagline": "An extensible framework for automated black-box testing of RESTful web APIs",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/title-icon.png",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
   "organizationName": "SeUniVR",
@@ -35,27 +35,26 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "RestTestGen",
+      "title": "RestTestGen Framework",
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "overviewSidebar",
           "position": "left",
-          "label": "Overview"
+          "label": "RestTestGen Overview"
         },
         {
           "type": "docSidebar",
           "sidebarId": "frameworkSidebar",
           "position": "left",
-          "label": "RTG Framework"
+          "label": "RestTestGen Framework Wiki"
         },
         {
           "type": "docSidebar",
           "sidebarId": "strategiesSidebar",
           "position": "left",
-          "label": "Available Testing Strategies"
+          "label": " Test your Web API with RTG"
         },
         {
           "href": "https://github.com/SeUniVr/RestTestGen",
@@ -67,7 +66,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus.",
+      "copyright": "Copyright © 2025 RestTestGen, Inc. Built with Docusaurus.",
       "links": []
     },
     "prism": {

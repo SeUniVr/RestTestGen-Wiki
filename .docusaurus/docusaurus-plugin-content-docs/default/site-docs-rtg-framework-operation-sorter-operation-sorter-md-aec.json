@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Components",
-    "permalink": "/docs/category/components"
+    "title": "Extensible Components",
+    "permalink": "/docs/category/extensible-components"
   },
   "next": {
-    "title": "Parameters",
-    "permalink": "/docs/rtg-framework/datatype/parameters"
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/"
   }
 }

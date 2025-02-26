@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/odg/odg",
+  "title": "Operation Dependency Graph",
+  "description": "This class represents a graph of the dependencies between operations defined in a specific OpneAPI. The nodes of the graph represent operations; the arcs, on the other hand, represent dependencies between operations, e.g. when an operation produces a parameter that another operation uses.",
+  "source": "@site/docs/rtg-framework/odg/odg.md",
+  "sourceDirName": "rtg-framework/odg",
+  "slug": "/rtg-framework/odg/",
+  "permalink": "/docs/rtg-framework/odg/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Operation",
+    "permalink": "/docs/rtg-framework/datatype/operation"
+  },
+  "next": {
+    "title": "Interaction Processor",
+    "permalink": "/docs/rtg-framework/interaction-processor/"
+  }
+}

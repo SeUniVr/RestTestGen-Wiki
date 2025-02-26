@@ -35,7 +35,8 @@
             },
             {
               "id": "rtg-framework/datatype/operation",
-              "path": "/docs/rtg-framework/datatype/operation"
+              "path": "/docs/rtg-framework/datatype/operation",
+              "sidebar": "frameworkSidebar"
             },
             {
               "id": "rtg-framework/datatype/parameters",
@@ -44,8 +45,7 @@
             },
             {
               "id": "rtg-framework/fuzzer/error-fuzzer",
-              "path": "/docs/rtg-framework/fuzzer/error-fuzzer",
-              "sidebar": "frameworkSidebar"
+              "path": "/docs/rtg-framework/fuzzer/error-fuzzer"
             },
             {
               "id": "rtg-framework/fuzzer/fuzzer",
@@ -110,6 +110,11 @@
               "path": "/docs/rtg-framework/mutator/parameter-mutator/wrong-type-mutator"
             },
             {
+              "id": "rtg-framework/odg/odg",
+              "path": "/docs/rtg-framework/odg/",
+              "sidebar": "frameworkSidebar"
+            },
+            {
               "id": "rtg-framework/operation-sorter/dynamic/graph-based-operation-sorter",
               "path": "/docs/rtg-framework/operation-sorter/dynamic/graph-based-operation-sorter"
             },
@@ -142,6 +147,11 @@
             {
               "id": "rtg-framework/oracle/status-code-oracle",
               "path": "/docs/rtg-framework/oracle/status-code-oracle"
+            },
+            {
+              "id": "rtg-framework/parser/parser",
+              "path": "/docs/rtg-framework/parser/",
+              "sidebar": "frameworkSidebar"
             },
             {
               "id": "rtg-framework/pvp/multi-strategy/enum-example-pvp",
@@ -205,6 +215,11 @@
               "path": "/docs/rtg-framework/pvp/single-strategy/"
             },
             {
+              "id": "rtg-framework/strategy/strategy",
+              "path": "/docs/rtg-framework/strategy/",
+              "sidebar": "frameworkSidebar"
+            },
+            {
               "id": "rtg-framework/writer/coverage-report",
               "path": "/docs/rtg-framework/writer/coverage-report"
             },
@@ -220,10 +235,6 @@
               "id": "rtg-framework/writer/writer",
               "path": "/docs/rtg-framework/writer/",
               "sidebar": "frameworkSidebar"
-            },
-            {
-              "id": "rtg-tool/prova",
-              "path": "/docs/rtg-tool/prova"
             },
             {
               "id": "rtg-tool/strategy/introduction",
@@ -250,8 +261,13 @@
               "path": "/docs/rtg-tool/strategy/"
             },
             {
-              "id": "/category/components",
-              "path": "/docs/category/components",
+              "id": "/category/core-components",
+              "path": "/docs/category/core-components",
+              "sidebar": "frameworkSidebar"
+            },
+            {
+              "id": "/category/extensible-components",
+              "path": "/docs/category/extensible-components",
               "sidebar": "frameworkSidebar"
             }
           ],

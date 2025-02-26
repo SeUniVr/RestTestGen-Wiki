@@ -1,0 +1,23 @@
+{
+  "id": "rtg-framework/parser/parser",
+  "title": "OpenApi Parser",
+  "description": "The OpenApiParser class deals with the parsing of the OpenAPI specification. The methods of the class are constructed so that the parser is resilient and tolerant of unexpected behaviour. For example, properties not belonging to the grammar are ignored, while inconsistencies with the specification are corrected when possible.",
+  "source": "@site/docs/rtg-framework/parser/parser.md",
+  "sourceDirName": "rtg-framework/parser",
+  "slug": "/rtg-framework/parser/",
+  "permalink": "/docs/rtg-framework/parser/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Core Components",
+    "permalink": "/docs/category/core-components"
+  },
+  "next": {
+    "title": "Parameters",
+    "permalink": "/docs/rtg-framework/datatype/parameters"
+  }
+}

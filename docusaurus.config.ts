@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'RestTestGen',
   tagline: 'An extensible framework for automated black-box testing of RESTful web APIs',
-  favicon: 'img/favicon.ico', //CHANGE IT
+  favicon: 'img/title-icon.png', //CHANGE IT
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com', //CHANGE IT
@@ -46,28 +46,26 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'RestTestGen',
+      title: 'RestTestGen Framework',
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'overviewSidebar',
           position: 'left',
-          label: 'Overview',
+          label: 'RestTestGen Overview',
         },
         {
           type: 'docSidebar',
           sidebarId: 'frameworkSidebar',
           position: 'left',
-          label: 'RTG Framework',
+          label: 'RestTestGen Framework Wiki',
         },
         {
           type: 'docSidebar',
           sidebarId: 'strategiesSidebar',
           position: 'left',
-          label: 'Available Testing Strategies',
+          label: ' Test your Web API with RTG',
         },
         {
           href: 'https://github.com/SeUniVr/RestTestGen',
@@ -78,7 +76,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RestTestGen, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

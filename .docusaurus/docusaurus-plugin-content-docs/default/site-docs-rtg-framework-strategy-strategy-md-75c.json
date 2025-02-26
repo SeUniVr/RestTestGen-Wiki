@@ -13,11 +13,7 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Mutator",
-    "permalink": "/docs/rtg-framework/mutator/"
-  },
-  "next": {
-    "title": "Oracle",
-    "permalink": "/docs/rtg-framework/oracle/"
+    "title": "Writer",
+    "permalink": "/docs/rtg-framework/writer/"
   }
 }

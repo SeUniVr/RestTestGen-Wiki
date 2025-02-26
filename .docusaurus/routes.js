@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f5b'),
+    component: ComponentCreator('/docs', 'b63'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b8a'),
+        component: ComponentCreator('/docs', 'fb1'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '40e'),
+            component: ComponentCreator('/docs', 'a05'),
             routes: [
               {
                 path: '/docs/automated-testing',
@@ -61,8 +61,14 @@ export default [
                 sidebar: "overviewSidebar"
               },
               {
-                path: '/docs/category/components',
-                component: ComponentCreator('/docs/category/components', 'af3'),
+                path: '/docs/category/core-components',
+                component: ComponentCreator('/docs/category/core-components', 'eef'),
+                exact: true,
+                sidebar: "frameworkSidebar"
+              },
+              {
+                path: '/docs/category/extensible-components',
+                component: ComponentCreator('/docs/category/extensible-components', '004'),
                 exact: true,
                 sidebar: "frameworkSidebar"
               },
@@ -90,8 +96,9 @@ export default [
               },
               {
                 path: '/docs/rtg-framework/datatype/operation',
-                component: ComponentCreator('/docs/rtg-framework/datatype/operation', 'd39'),
-                exact: true
+                component: ComponentCreator('/docs/rtg-framework/datatype/operation', 'e1d'),
+                exact: true,
+                sidebar: "frameworkSidebar"
               },
               {
                 path: '/docs/rtg-framework/datatype/parameters',
@@ -106,9 +113,8 @@ export default [
               },
               {
                 path: '/docs/rtg-framework/fuzzer/error-fuzzer',
-                component: ComponentCreator('/docs/rtg-framework/fuzzer/error-fuzzer', '9e6'),
-                exact: true,
-                sidebar: "frameworkSidebar"
+                component: ComponentCreator('/docs/rtg-framework/fuzzer/error-fuzzer', 'e02'),
+                exact: true
               },
               {
                 path: '/docs/rtg-framework/fuzzer/mass-assignment-fuzzer',
@@ -183,6 +189,12 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/rtg-framework/odg/',
+                component: ComponentCreator('/docs/rtg-framework/odg/', '84f'),
+                exact: true,
+                sidebar: "frameworkSidebar"
+              },
+              {
                 path: '/docs/rtg-framework/operation-sorter/',
                 component: ComponentCreator('/docs/rtg-framework/operation-sorter/', 'f9d'),
                 exact: true,
@@ -223,6 +235,12 @@ export default [
                 path: '/docs/rtg-framework/oracle/status-code-oracle',
                 component: ComponentCreator('/docs/rtg-framework/oracle/status-code-oracle', '547'),
                 exact: true
+              },
+              {
+                path: '/docs/rtg-framework/parser/',
+                component: ComponentCreator('/docs/rtg-framework/parser/', 'bfc'),
+                exact: true,
+                sidebar: "frameworkSidebar"
               },
               {
                 path: '/docs/rtg-framework/pvp/',
@@ -301,6 +319,12 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/rtg-framework/strategy/',
+                component: ComponentCreator('/docs/rtg-framework/strategy/', 'ee3'),
+                exact: true,
+                sidebar: "frameworkSidebar"
+              },
+              {
                 path: '/docs/rtg-framework/writer/',
                 component: ComponentCreator('/docs/rtg-framework/writer/', 'fb5'),
                 exact: true,
@@ -319,11 +343,6 @@ export default [
               {
                 path: '/docs/rtg-framework/writer/rest-assured-writer',
                 component: ComponentCreator('/docs/rtg-framework/writer/rest-assured-writer', 'fd9'),
-                exact: true
-              },
-              {
-                path: '/docs/rtg-tool/prova',
-                component: ComponentCreator('/docs/rtg-tool/prova', 'b2d'),
                 exact: true
               },
               {

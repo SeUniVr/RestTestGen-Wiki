@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/datatype/operation",
   "title": "Operation",
-  "description": "",
+  "description": "The Operation class makes it possible to represent an operation within the OpenAPI specification that is being parsed. The class contains several attributes that serve to better describe the functionality being considered. Here are the main ones:",
   "source": "@site/docs/rtg-framework/datatype/operation.md",
   "sourceDirName": "rtg-framework/datatype",
   "slug": "/rtg-framework/datatype/operation",
@@ -10,5 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Parameters",
+    "permalink": "/docs/rtg-framework/datatype/parameters"
+  },
+  "next": {
+    "title": "Operation Dependency Graph",
+    "permalink": "/docs/rtg-framework/odg/"
+  }
 }
