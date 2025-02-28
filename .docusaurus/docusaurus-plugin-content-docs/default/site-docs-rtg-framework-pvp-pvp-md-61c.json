@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/pvp/pvp",
   "title": "Parameter Value Provider",
-  "description": "This set of classes is used to provide a value to various parameters, based on different valuation methodologies. In the implementation of RestTestGen, we find two macro-types: single and multiple (i.e. combining several single strategies).",
+  "description": "io.resttestgen.implementation.parametervalueprovider;",
   "source": "@site/docs/rtg-framework/pvp/pvp.md",
   "sourceDirName": "rtg-framework/pvp",
   "slug": "/rtg-framework/pvp/",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Operation Sorter",
-    "permalink": "/docs/rtg-framework/operation-sorter/"
+    "title": "Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/"
   },
   "next": {
     "title": "Mutator",

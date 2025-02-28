@@ -1,4 +1,6 @@
 # Interaction Processor
+> io.resttestgen.implementation.interactionprocessor;
+
 The abstract class ```InteractionProcessor``` defines an interface for processing test interactions. Within this class we find two methods: ```canProcess```, to check whether an interaction is suitable for processing; ```process``` used to execute the processing of the interaction.
 
 ## Graph Interaction Processor

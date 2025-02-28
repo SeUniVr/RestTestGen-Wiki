@@ -1,4 +1,6 @@
 # Operation
+> io.resttestgen.core.openapi;
+
 The Operation class makes it possible to represent an operation within the OpenAPI specification that is being parsed. The class contains several attributes that serve to better describe the functionality being considered. Here are the main ones:
 - **Method**: indicates which method is used for the request (```GET```, ```POST```, ```PUT```, ```DELETE```, ...).
 - **Endpoint**: indicates the URI to which the request is sent.

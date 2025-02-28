@@ -1,2 +1,0 @@
-# Missing Required Parameter Mutator
-This mutator is designed to test the operation of the system when mandatory parameters are removed in requests. A parameter is considered mutable if it is mandatory. If the parameter is mutable, then it is removed. Therefore, if the parameter is a ```LeafParameter```, the value is deleted; if the parameter is an array, then all values are deleted; if the parameters are of another type, they are directly removed from the operation. The aim is to generate incomplete requests to test the error handling by the REST API under test.

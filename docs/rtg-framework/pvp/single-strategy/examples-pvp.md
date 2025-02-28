@@ -1,6 +1,0 @@
-# Examples Parameter Value Provider
-When a parameter value is requested, the default example values in the OpenAPI specification are used. In this way, the example values are documented and realistic.   
-The main method of the class is ```collectValuesFor(LeafParameter leafParameter)```, which collects the example values (examples) associated with the parameter passed as an argument. The collection strategy depends on the configuration of the value source: 
-- **```SAME_NAME```**: if the configuration is set to ```SAME_NAME```, the method collects all example values defined for parameters having the same name within the OpenAPI specification. The values are extracted and any duplicates removed.   
-- **```SAME_NORMALIZED_NAME```**: if the configuration is set to ```SAME_NORMALISED_NAME```, the collection is performed considering parameters that have the same normalised name. This allows standardisation of variations in the parameter name. 
-- **Default Mode (```SELF```)**: if neither of the two previous modes is activated, the provider directly uses the example values defined for the parameter itself, without searching for matches within the API specification. 

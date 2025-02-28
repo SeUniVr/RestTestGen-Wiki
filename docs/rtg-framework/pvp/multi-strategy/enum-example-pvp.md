@@ -1,7 +1,0 @@
-# Enum and Example Priority Parameter Value Provider
-This is a multiple selection strategy for choosing a value for the ```LeafParameter```. In this case, the two providers ```EnumParameterValueProvider``` and ```ExamplesParameterValueProvider``` are retrieved and the available values for each provider are counted. If at least one of the two has available values, a decision is made whether to choose one of them with a probability of 80%. In this case, a random choice is made between the EnumParameterValueProvider and the ExamplesParameterValueProvider.   
-If there are no values available for the two Value Providers, i.e. there are neither Enum values nor Examples, or if the remaining 20% probability falls into, another strategy is used.   
-
-A list of always available providers is retrieved: ```RandomParameterValueProvider``` and ```NarrowRandomParameterValueProvider```. A list of conditional Value Providers is then also created: ```DefaultParameterValueProvider```, ```ResponseDictionaryParameterValueProvider```, ```LastResponseDictionaryParameterValueProvider```. They are filtered and only those with at least one available value are retained.  
-
-If a choice has not yet been made, then a Value Provider is randomly chosen from those remaining to value the parameter.

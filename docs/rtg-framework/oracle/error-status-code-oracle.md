@@ -1,4 +1,0 @@
-# Error Status Code Oracle
-This is a test oracle which verifies whether a TestSequence has been handled correctly by the server. It is based on the HTTP status code.   
-
-This oracle checks whether the ```TestSequence``` has been executed correctly and, if one or more ```TestInteraction``` have not been executed, it terminates with an error.  After that, the status code of the last interaction of the sequence is analysed. If the status code is in class ```4XX``` (i.e. client-side error), the test is considered to have passed. If the status code indicates a success, i.e. class ```2XX```, the test is considered to have failed because the incorrect ```TestSequence``` was accepted by the server. Finally, if the status code indicates a server error, i.e. class ```5XX```, the test fails because the server should not generate internal errors but respond with a correctly handled error message.

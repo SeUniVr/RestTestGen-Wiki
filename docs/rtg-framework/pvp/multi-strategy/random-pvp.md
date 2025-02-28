@@ -1,2 +1,0 @@
-# Random Provider Parameter Value Provider
-This class implements a flexible strategy for selecting parameter values by randomly choosing from several available sources. Two lists are defined, one of always available providers (```RandomParameterValueProvider``` and ```NarrowRandomParameterValueProvider```) and one of candidate providers (Default, Enum, Examples, ResponseDictionary, RequestDictionary, LastResponseDictionary, LastRequestDictionary). The providers are filtered to exclude those with no available values and a source is randomly chosen from the remaining ones.

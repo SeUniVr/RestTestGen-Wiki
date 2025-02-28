@@ -1,4 +1,6 @@
 # OpenApi Parser
+> io.resttestgen.core.openapi;
+
 The OpenApiParser class deals with the parsing of the OpenAPI specification. The methods of the class are constructed so that the parser is **resilient** and **tolerant** of unexpected behaviour. For example, properties not belonging to the grammar are ignored, while inconsistencies with the specification are corrected when possible.
 
 Within the class is a map (```Map<String, Object> openAPIMap```) that represents the OpenAPI specification in JSON format after it has been read and deserialised. The main constructor of the class accepts a parameter of type ```ApiUnderTest``` representing a structure used to manage and test an API.

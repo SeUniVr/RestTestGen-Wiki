@@ -21,17 +21,9 @@
               "sidebar": "overviewSidebar"
             },
             {
-              "id": "rtg-framework/components/core",
-              "path": "/docs/rtg-framework/components/core"
-            },
-            {
               "id": "rtg-framework/components/core-extensibile-description",
               "path": "/docs/rtg-framework/components/core-extensibile-description",
               "sidebar": "frameworkSidebar"
-            },
-            {
-              "id": "rtg-framework/components/extensible",
-              "path": "/docs/rtg-framework/components/extensible"
             },
             {
               "id": "rtg-framework/datatype/operation",
@@ -49,28 +41,9 @@
               "sidebar": "frameworkSidebar"
             },
             {
-              "id": "rtg-framework/fuzzer/error-fuzzer",
-              "path": "/docs/rtg-framework/fuzzer/error-fuzzer"
-            },
-            {
               "id": "rtg-framework/fuzzer/fuzzer",
-              "path": "/docs/rtg-framework/fuzzer/"
-            },
-            {
-              "id": "rtg-framework/fuzzer/mass-assignment-fuzzer",
-              "path": "/docs/rtg-framework/fuzzer/mass-assignment-fuzzer"
-            },
-            {
-              "id": "rtg-framework/fuzzer/nominal-fuzzer",
-              "path": "/docs/rtg-framework/fuzzer/nominal-fuzzer"
-            },
-            {
-              "id": "rtg-framework/fuzzer/subsequence-error-fuzzer",
-              "path": "/docs/rtg-framework/fuzzer/subsequence-error-fuzzer"
-            },
-            {
-              "id": "rtg-framework/interaction-processor/graph-inter-processor",
-              "path": "/docs/rtg-framework/interaction-processor/graph-inter-processor"
+              "path": "/docs/rtg-framework/fuzzer/",
+              "sidebar": "frameworkSidebar"
             },
             {
               "id": "rtg-framework/interaction-processor/interaction-processor",
@@ -78,41 +51,9 @@
               "sidebar": "frameworkSidebar"
             },
             {
-              "id": "rtg-framework/interaction-processor/jsonparser-inter-processor",
-              "path": "/docs/rtg-framework/interaction-processor/jsonparser-inter-processor"
-            },
-            {
-              "id": "rtg-framework/interaction-processor/nlp-inter-processor",
-              "path": "/docs/rtg-framework/interaction-processor/nlp-inter-processor"
-            },
-            {
-              "id": "rtg-framework/interaction-processor/request-dictionary-inter-processor",
-              "path": "/docs/rtg-framework/interaction-processor/request-dictionary-inter-processor"
-            },
-            {
-              "id": "rtg-framework/interaction-processor/response-dictionary-inter-processor",
-              "path": "/docs/rtg-framework/interaction-processor/response-dictionary-inter-processor"
-            },
-            {
               "id": "rtg-framework/mutator/mutator",
               "path": "/docs/rtg-framework/mutator/",
               "sidebar": "frameworkSidebar"
-            },
-            {
-              "id": "rtg-framework/mutator/operation-mutator/mutate-random-mutator",
-              "path": "/docs/rtg-framework/mutator/operation-mutator/mutate-random-mutator"
-            },
-            {
-              "id": "rtg-framework/mutator/parameter-mutator/constraint-violation-mutator",
-              "path": "/docs/rtg-framework/mutator/parameter-mutator/constraint-violation-mutator"
-            },
-            {
-              "id": "rtg-framework/mutator/parameter-mutator/missing-required-mutator",
-              "path": "/docs/rtg-framework/mutator/parameter-mutator/missing-required-mutator"
-            },
-            {
-              "id": "rtg-framework/mutator/parameter-mutator/wrong-type-mutator",
-              "path": "/docs/rtg-framework/mutator/parameter-mutator/wrong-type-mutator"
             },
             {
               "id": "rtg-framework/odg/odg",
@@ -120,25 +61,9 @@
               "sidebar": "frameworkSidebar"
             },
             {
-              "id": "rtg-framework/operation-sorter/dynamic/graph-based-operation-sorter",
-              "path": "/docs/rtg-framework/operation-sorter/dynamic/graph-based-operation-sorter"
-            },
-            {
               "id": "rtg-framework/operation-sorter/operation-sorter",
               "path": "/docs/rtg-framework/operation-sorter/",
               "sidebar": "frameworkSidebar"
-            },
-            {
-              "id": "rtg-framework/operation-sorter/static/random-operation-sorter",
-              "path": "/docs/rtg-framework/operation-sorter/static/random-operation-sorter"
-            },
-            {
-              "id": "rtg-framework/oracle/error-status-code-oracle",
-              "path": "/docs/rtg-framework/oracle/error-status-code-oracle"
-            },
-            {
-              "id": "rtg-framework/oracle/mass-assignment-oracle",
-              "path": "/docs/rtg-framework/oracle/mass-assignment-oracle"
             },
             {
               "id": "rtg-framework/oracle/oracle",
@@ -146,41 +71,9 @@
               "sidebar": "frameworkSidebar"
             },
             {
-              "id": "rtg-framework/oracle/producer-consumer-oracle",
-              "path": "/docs/rtg-framework/oracle/producer-consumer-oracle"
-            },
-            {
-              "id": "rtg-framework/oracle/status-code-oracle",
-              "path": "/docs/rtg-framework/oracle/status-code-oracle"
-            },
-            {
               "id": "rtg-framework/parser/parser",
               "path": "/docs/rtg-framework/parser/",
               "sidebar": "frameworkSidebar"
-            },
-            {
-              "id": "rtg-framework/pvp/multi-strategy/enum-example-pvp",
-              "path": "/docs/rtg-framework/pvp/multi-strategy/enum-example-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/multi-strategy/global-dictionary-pvp",
-              "path": "/docs/rtg-framework/pvp/multi-strategy/global-dictionary-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/multi-strategy/keep-last-id-pvp",
-              "path": "/docs/rtg-framework/pvp/multi-strategy/keep-last-id-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/multi-strategy/local-dictionary",
-              "path": "/docs/rtg-framework/pvp/multi-strategy/local-dictionary"
-            },
-            {
-              "id": "rtg-framework/pvp/multi-strategy/multi-strategy",
-              "path": "/docs/rtg-framework/pvp/multi-strategy/"
-            },
-            {
-              "id": "rtg-framework/pvp/multi-strategy/random-pvp",
-              "path": "/docs/rtg-framework/pvp/multi-strategy/random-pvp"
             },
             {
               "id": "rtg-framework/pvp/pvp",
@@ -188,53 +81,9 @@
               "sidebar": "frameworkSidebar"
             },
             {
-              "id": "rtg-framework/pvp/single-strategy/default-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/default-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/enum-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/enum-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/examples-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/examples-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/last-request-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/last-request-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/last-response-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/last-response-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/request-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/request-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/response-pvp",
-              "path": "/docs/rtg-framework/pvp/single-strategy/response-pvp"
-            },
-            {
-              "id": "rtg-framework/pvp/single-strategy/single-strategy",
-              "path": "/docs/rtg-framework/pvp/single-strategy/"
-            },
-            {
               "id": "rtg-framework/strategy/strategy",
               "path": "/docs/rtg-framework/strategy/",
               "sidebar": "frameworkSidebar"
-            },
-            {
-              "id": "rtg-framework/writer/coverage-report",
-              "path": "/docs/rtg-framework/writer/coverage-report"
-            },
-            {
-              "id": "rtg-framework/writer/report-writer",
-              "path": "/docs/rtg-framework/writer/report-writer"
-            },
-            {
-              "id": "rtg-framework/writer/rest-assured-writer",
-              "path": "/docs/rtg-framework/writer/rest-assured-writer"
             },
             {
               "id": "rtg-framework/writer/writer",

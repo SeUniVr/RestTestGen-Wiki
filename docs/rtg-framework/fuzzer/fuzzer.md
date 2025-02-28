@@ -1,4 +1,6 @@
 # Fuzzer
+> io.resttestgen.implementation.fuzzer;
+
 A fuzzer is an automatic testing tool that injects random or mutated input into a system to detect errors, vulnerabilities or unexpected behaviour. 
 
 ## Error Fuzzer

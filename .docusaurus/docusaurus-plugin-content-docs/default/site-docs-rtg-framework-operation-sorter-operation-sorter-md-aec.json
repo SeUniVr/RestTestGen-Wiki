@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/operation-sorter/operation-sorter",
   "title": "Operation Sorter",
-  "description": "There are two type of operation sorter, the static and the dynamic one. Both of them extend the `OperationSorter` class.",
+  "description": "io.resttestgen.implementation.operationssorter;",
   "source": "@site/docs/rtg-framework/operation-sorter/operation-sorter.md",
   "sourceDirName": "rtg-framework/operation-sorter",
   "slug": "/rtg-framework/operation-sorter/",
@@ -17,7 +17,7 @@
     "permalink": "/docs/category/extensible-components"
   },
   "next": {
-    "title": "Parameter Value Provider",
-    "permalink": "/docs/rtg-framework/pvp/"
+    "title": "Fuzzer",
+    "permalink": "/docs/rtg-framework/fuzzer/"
   }
 }

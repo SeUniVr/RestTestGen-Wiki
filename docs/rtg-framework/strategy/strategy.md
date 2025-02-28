@@ -1,4 +1,6 @@
 # Strategy
+> io.resttestgen.implementation.strategy;
+
 To execute RestTestGen, the ```main()``` method inside the App class within the package ```io.resttestgen.boot.cli``` is executed. Within the project, there is also a configuration file ```rtg-config.yml``` in which anyone wishing to use the tool must specify the strategy to be used and the API to be tested.
 
 In this case, the file looks like this:

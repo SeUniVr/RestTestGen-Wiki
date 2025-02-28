@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/parser/parser",
   "title": "OpenApi Parser",
-  "description": "The OpenApiParser class deals with the parsing of the OpenAPI specification. The methods of the class are constructed so that the parser is resilient and tolerant of unexpected behaviour. For example, properties not belonging to the grammar are ignored, while inconsistencies with the specification are corrected when possible.",
+  "description": "io.resttestgen.core.openapi;",
   "source": "@site/docs/rtg-framework/parser/parser.md",
   "sourceDirName": "rtg-framework/parser",
   "slug": "/rtg-framework/parser/",

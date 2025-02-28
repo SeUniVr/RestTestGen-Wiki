@@ -3,7 +3,7 @@
 The architecture of RTG can be seen in the figure. It provides developers and researchers with two types of components. It is possible to find **core components** that work out-of-the box, and **extensible components** that can be re-implemented to give developers, or those who need them, the possibility of creating totally customised strategies. 
 Core and extensible components are the basic building blocks for new testing approaches. Complete and functioning test strategies are already available in the framework as examples of how to instantiate and assemble all necessary components.
 
-![Alt text](../../../static/img/architecture.png)
+![RTG Architecture](../../../static/img/architecture.png)
 
 ## Core Components
 **Core components** are a collection of ready-to-use classes that a researcher may directly integrate into a testing strategy. The initial point of REST API testing in black-box mode is the OpenAPI specification. For this, a very robust **OpenApi Parser** is provided that is tolerant of certain inconsistencies that may be encountered. In this case, properties that do not belong to the grammar are silently ignored and inconsistencies are fixed where this is possible. For example, type conversion is attempted if there is no match (e.g. ```0``` instead of ```0```). Values that cannot be converted are ignored.
@@ -52,3 +52,24 @@ Moreover, there is the **```Writer```** component. This is the component used to
 - **RESTAssured Writer**: outputs the automatically generated test sequence as a test case in Java, using the RESTAssured library. 
 
 Finally, there is the **```Strategy```**. This is the **entry point** of the framework and represents the place where the business logic of the test strategy is to be implemented. A strategy consists of integrating the framework components, possibly after extending and/or customising them. 
+
+## Execution Pipeline
+![RTG Execution Pipeline](../../../static/img/PipelineRTG.svg)
+
+To better understand the high-level operation, the tool's execution pipeline is provided. The image shows a schematic version of what happens at start-up. 
+A more detailed version is given below. 
+
+For the tool to work properly, it is necessary to configure it. This is done by **compiling** the ```rtg-config.yml``` file. In it, there are two properties to be provided:
+- ```strategyClassName```: which indicates which strategy you wish to execute
+- ```apiUnderTest```: which gives an indication of the REST API you wish to test. 
+
+Then, when the tool is started, this configuration file is read and its information are **extracted**. Based on what is specified in it, a certain API will be taken into account and tested with a certain strategy. 
+The next step, in fact, concerns the **parsing** of the OpenAPI specification of the REST API to be tested. From the parsing, all the information needed to proceed with the testing is extracted, such as the operations present, the parameters needed to execute the requests, and the format of the responses. 
+
+Once the various pieces of information have been gathered, it is possible to start with the execution of the chosen strategy. In fact, according to what is specified in the configuration file, the corresponding strategy is **launched**. Its purpose is to create test sequences, i.e. sets of individual interactions. These sequences require the execution of a **fuzzing phase** before they are executed, in which the parameters required to perform an HTTP request are valorised through the use of Input Value Providers. 
+
+After that, the various test sequences are executed. In particular, all individual interactions that are part of the sequence itself are executed. 
+The results of this phase are then **processed** by a processor that, for example, may be responsible for saving the data in response within a dictionary or preparing the data to be processed by an oracle. 
+Subsequently, the results from the execution of the various test sequences are processed by an **oracle** that takes care of determining the success or failure of the test itself. 
+
+Finally, everything that happened during testing is converted into a **report** in order to provide a more human-readable mechanism that allows developers and researchers to better understand any problems that the REST API tested presents, and also to highlight any vulnerabilities. 

@@ -1,4 +1,5 @@
 # Test Interaction, Test Sequence, Test Runner, Test Result
+> io.resttestgen.core.testing;
 
 In order to handle the HTTP requests that are executed during the test, several components are provided that facilitate the interaction between the framework itself and the REST API being tested. These are the ```TestInteraction``` class, the ```TestSequence``` class, the ```TestRunner``` class and the ```TestResult``` class. They are explained in detail below.
 

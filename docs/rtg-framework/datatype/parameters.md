@@ -1,4 +1,5 @@
 # Parameters
+> io.resttestgen.core.datatype.parameter;
 
 The abstract class ```Parameter``` provides the representation of a parameter within the OpenAPI specification. Parameters are used in HTTP requests to pass data, e.g. in query parameters, header, body, ...  
 

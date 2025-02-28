@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/fuzzer/fuzzer",
   "title": "Fuzzer",
-  "description": "A fuzzer is an automatic testing tool that injects random or mutated input into a system to detect errors, vulnerabilities or unexpected behaviour.",
+  "description": "io.resttestgen.implementation.fuzzer;",
   "source": "@site/docs/rtg-framework/fuzzer/fuzzer.md",
   "sourceDirName": "rtg-framework/fuzzer",
   "slug": "/rtg-framework/fuzzer/",
@@ -10,5 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {},
+  "sidebar": "frameworkSidebar",
+  "previous": {
+    "title": "Operation Sorter",
+    "permalink": "/docs/rtg-framework/operation-sorter/"
+  },
+  "next": {
+    "title": "Parameter Value Provider",
+    "permalink": "/docs/rtg-framework/pvp/"
+  }
 }

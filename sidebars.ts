@@ -43,6 +43,7 @@ const sidebars: SidebarsConfig = {
         description: 'This section presents the extensible components within the RTG framework.'
       },
       items: ['rtg-framework/operation-sorter/operation-sorter',
+              'rtg-framework/fuzzer/fuzzer',
               'rtg-framework/pvp/pvp',
               'rtg-framework/mutator/mutator',
               'rtg-framework/interaction-processor/interaction-processor',

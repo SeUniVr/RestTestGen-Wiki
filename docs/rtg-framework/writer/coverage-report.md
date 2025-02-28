@@ -1,2 +1,0 @@
-# Coverage Report Writer
-The purpose of this class is to collect test case coverage data, organise it in JSON format and save it in a dedicated folder so that it can be easily analysed. The information is retrieved on the basis of the Coverage Manager component, which contains the information collected during the test session.

@@ -1,4 +1,5 @@
 # Operation Dependency Graph
+> io.resttestgen.core.operationdependencygraph;
 
 This class represents a **graph of** the **dependencies** between operations defined in a specific OpneAPI. The nodes of the graph represent operations; the arcs, on the other hand, represent dependencies between operations, e.g. when an operation produces a parameter that another operation uses.
 The constructor of the class receives an object of type OpenApi, after the specification has been parsed. All operations are extracted and the various nodes are added. Afterwards, the operations are parsed to also insert the arcs.

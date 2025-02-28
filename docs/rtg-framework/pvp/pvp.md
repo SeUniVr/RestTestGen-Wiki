@@ -1,4 +1,6 @@
 # Parameter Value Provider
+> io.resttestgen.implementation.parametervalueprovider;
+
 This set of classes is used to provide a value to various parameters, based on different valuation methodologies. In the implementation of RestTestGen, we find two macro-types: **single** and **multiple** (i.e. combining several single strategies). 
 
 ## Single Strategy

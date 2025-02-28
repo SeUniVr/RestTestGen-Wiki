@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/mutator/mutator",
   "title": "Mutator",
-  "description": "A mutator is a software component that modifies in a controlled manner certain aspects of an entity, such as data, parameters or operations, with the aim of generating variations useful for testing, optimisation or analysis of the robustness of a system.",
+  "description": "io.resttestgen.implementation.mutator;",
   "source": "@site/docs/rtg-framework/mutator/mutator.md",
   "sourceDirName": "rtg-framework/mutator",
   "slug": "/rtg-framework/mutator/",

@@ -1,2 +1,0 @@
-# Random Operation Sorter
-This class implements a random order of the operations to be tested. A list of operations is retrieved from the environment and then a “shuffle” is applied to this list. Unlike the class described above, no structured strategy is followed. 
