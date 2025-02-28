@@ -1,5 +1,7 @@
 services:
   resttestgen-wiki:
     build: .
+    volumes:
+      - ./:/rtg-wiki/
     ports:
       - "3000:3000"
