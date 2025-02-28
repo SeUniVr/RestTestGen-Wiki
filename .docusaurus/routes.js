@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b63'),
+    component: ComponentCreator('/docs', '2be'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'fb1'),
+        component: ComponentCreator('/docs', '36d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a05'),
+            component: ComponentCreator('/docs', '88b'),
             routes: [
               {
                 path: '/docs/automated-testing',
@@ -71,6 +71,24 @@ export default [
                 component: ComponentCreator('/docs/category/extensible-components', '004'),
                 exact: true,
                 sidebar: "frameworkSidebar"
+              },
+              {
+                path: '/docs/category/functional-testing-strategies',
+                component: ComponentCreator('/docs/category/functional-testing-strategies', '3a1'),
+                exact: true,
+                sidebar: "strategiesSidebar"
+              },
+              {
+                path: '/docs/category/other-strategies',
+                component: ComponentCreator('/docs/category/other-strategies', '16d'),
+                exact: true,
+                sidebar: "strategiesSidebar"
+              },
+              {
+                path: '/docs/category/security-testing-strategies',
+                component: ComponentCreator('/docs/category/security-testing-strategies', '99f'),
+                exact: true,
+                sidebar: "strategiesSidebar"
               },
               {
                 path: '/docs/rtg',
@@ -103,6 +121,12 @@ export default [
               {
                 path: '/docs/rtg-framework/datatype/parameters',
                 component: ComponentCreator('/docs/rtg-framework/datatype/parameters', '10d'),
+                exact: true,
+                sidebar: "frameworkSidebar"
+              },
+              {
+                path: '/docs/rtg-framework/datatype/test-sequence-interaction-runner',
+                component: ComponentCreator('/docs/rtg-framework/datatype/test-sequence-interaction-runner', '4fd'),
                 exact: true,
                 sidebar: "frameworkSidebar"
               },

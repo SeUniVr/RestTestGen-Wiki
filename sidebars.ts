@@ -31,8 +31,8 @@ const sidebars: SidebarsConfig = {
       items: ['rtg-framework/parser/parser',
               'rtg-framework/datatype/parameters',
               'rtg-framework/datatype/operation',
+              'rtg-framework/datatype/test-sequence-interaction-runner',
               'rtg-framework/odg/odg',
-              'rtg-framework/interaction-processor/interaction-processor',
       ]
     },
     {
@@ -45,6 +45,7 @@ const sidebars: SidebarsConfig = {
       items: ['rtg-framework/operation-sorter/operation-sorter',
               'rtg-framework/pvp/pvp',
               'rtg-framework/mutator/mutator',
+              'rtg-framework/interaction-processor/interaction-processor',
               'rtg-framework/oracle/oracle',
               'rtg-framework/writer/writer',
               'rtg-framework/strategy/strategy',
@@ -54,11 +55,31 @@ const sidebars: SidebarsConfig = {
 
   strategiesSidebar: [
     'rtg-tool/strategy/introduction',
-    'rtg-tool/strategy/nominal-error-strategy',
-    'rtg-tool/strategy/mass-assignment-strategy',
-    'rtg-tool/strategy/nlp-strategy',
+    {
+      type: 'category',
+      label: 'Functional Testing Strategies',
+      link: {
+        type: 'generated-index',
+      }, 
+      items: ['rtg-tool/strategy/nominal-error-strategy']
+    }, 
+    {
+      type: 'category',
+      label: 'Security Testing Strategies',
+      link: {
+        type: 'generated-index',
+      }, 
+      items: ['rtg-tool/strategy/mass-assignment-strategy']
+    }, 
+    {
+      type: 'category',
+      label: 'Other Strategies',
+      link: {
+        type: 'generated-index',
+      }, 
+      items: ['rtg-tool/strategy/nlp-strategy']
+    }
   ]
-
 };
 
 export default sidebars;

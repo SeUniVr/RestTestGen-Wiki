@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Mutator",
-    "permalink": "/docs/rtg-framework/mutator/"
+    "title": "Interaction Processor",
+    "permalink": "/docs/rtg-framework/interaction-processor/"
   },
   "next": {
     "title": "Writer",

@@ -44,6 +44,11 @@
               "sidebar": "frameworkSidebar"
             },
             {
+              "id": "rtg-framework/datatype/test-sequence-interaction-runner",
+              "path": "/docs/rtg-framework/datatype/test-sequence-interaction-runner",
+              "sidebar": "frameworkSidebar"
+            },
+            {
               "id": "rtg-framework/fuzzer/error-fuzzer",
               "path": "/docs/rtg-framework/fuzzer/error-fuzzer"
             },
@@ -269,6 +274,21 @@
               "id": "/category/extensible-components",
               "path": "/docs/category/extensible-components",
               "sidebar": "frameworkSidebar"
+            },
+            {
+              "id": "/category/functional-testing-strategies",
+              "path": "/docs/category/functional-testing-strategies",
+              "sidebar": "strategiesSidebar"
+            },
+            {
+              "id": "/category/security-testing-strategies",
+              "path": "/docs/category/security-testing-strategies",
+              "sidebar": "strategiesSidebar"
+            },
+            {
+              "id": "/category/other-strategies",
+              "path": "/docs/category/other-strategies",
+              "sidebar": "strategiesSidebar"
             }
           ],
           "draftIds": [],

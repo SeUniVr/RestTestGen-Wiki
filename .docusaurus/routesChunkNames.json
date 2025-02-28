@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-b63": {
+  "/docs-2be": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-fb1": {
+  "/docs-36d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-a05": {
+  "/docs-88b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/automated-testing-e5a": {
@@ -73,6 +73,18 @@
   "/docs/category/extensible-components-004": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-extensible-componentsc-01-853"
+  },
+  "/docs/category/functional-testing-strategies-3a1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-functional-testing-strategiesaab-2f0"
+  },
+  "/docs/category/other-strategies-16d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-other-strategies-4-f-2-01c"
+  },
+  "/docs/category/security-testing-strategies-99f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-security-testing-strategies-3-a-3-b2d"
   },
   "/docs/rtg-d2d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -97,6 +109,10 @@
   "/docs/rtg-framework/datatype/parameters-10d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rtg-framework-datatype-parametersc-04-54d"
+  },
+  "/docs/rtg-framework/datatype/test-sequence-interaction-runner-4fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rtg-framework-datatype-test-sequence-interaction-runnerfd-7-a7d"
   },
   "/docs/rtg-framework/fuzzer/-1e7": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -53,19 +53,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'overviewSidebar',
           position: 'left',
-          label: 'RestTestGen Overview',
+          label: 'Overview',
         },
         {
           type: 'docSidebar',
           sidebarId: 'frameworkSidebar',
           position: 'left',
-          label: 'RestTestGen Framework Wiki',
+          label: 'Wiki',
         },
         {
           type: 'docSidebar',
           sidebarId: 'strategiesSidebar',
           position: 'left',
-          label: ' Test your Web API with RTG',
+          label: ' Test your REST API',
         },
         {
           href: 'https://github.com/SeUniVr/RestTestGen',

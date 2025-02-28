@@ -1,7 +1,7 @@
 {
   "id": "rtg-framework/components/core-extensibile-description",
   "title": "Architecture",
-  "description": "The architecture of RTG can be seen in the figure. It provides developers and researchers with two types of components. it is possible to find core components that work out-of-the box, and extensible components that can be re-implemented to give developers, or those who need them, the possibility of creating totally customised strategies.",
+  "description": "The architecture of RTG can be seen in the figure. It provides developers and researchers with two types of components. It is possible to find core components that work out-of-the box, and extensible components that can be re-implemented to give developers, or those who need them, the possibility of creating totally customised strategies.",
   "source": "@site/docs/rtg-framework/components/core-extensibile-description.md",
   "sourceDirName": "rtg-framework/components",
   "slug": "/rtg-framework/components/core-extensibile-description",

@@ -1,3 +1,4 @@
+
 # Introduction
 
 Within this section of the documentation, you will find a description of the **strategies** that have **already been implemented** within RestTestGen. In fact, you can test your API using the strategies that have already been made available, instead of creating your own.

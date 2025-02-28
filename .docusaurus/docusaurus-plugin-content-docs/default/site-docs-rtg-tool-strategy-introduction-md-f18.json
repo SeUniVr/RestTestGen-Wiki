@@ -13,7 +13,7 @@
   "frontMatter": {},
   "sidebar": "strategiesSidebar",
   "next": {
-    "title": "Nominal and Error Strategy",
-    "permalink": "/docs/rtg-tool/strategy/nominal-error-strategy"
+    "title": "Functional Testing Strategies",
+    "permalink": "/docs/category/functional-testing-strategies"
   }
 }

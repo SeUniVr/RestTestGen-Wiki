@@ -17,7 +17,7 @@
     "permalink": "/docs/rtg-framework/datatype/parameters"
   },
   "next": {
-    "title": "Operation Dependency Graph",
-    "permalink": "/docs/rtg-framework/odg/"
+    "title": "Test Interaction, Test Sequence, Test Runner, Test Result",
+    "permalink": "/docs/rtg-framework/datatype/test-sequence-interaction-runner"
   }
 }

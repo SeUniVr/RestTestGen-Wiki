@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "strategiesSidebar",
   "previous": {
-    "title": "Nominal and Error Strategy",
-    "permalink": "/docs/rtg-tool/strategy/nominal-error-strategy"
+    "title": "Security Testing Strategies",
+    "permalink": "/docs/category/security-testing-strategies"
   },
   "next": {
-    "title": "NLP Strategy",
-    "permalink": "/docs/rtg-tool/strategy/nlp-strategy"
+    "title": "Other Strategies",
+    "permalink": "/docs/category/other-strategies"
   }
 }

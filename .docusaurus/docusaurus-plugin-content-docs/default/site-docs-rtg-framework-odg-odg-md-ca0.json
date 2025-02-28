@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "previous": {
-    "title": "Operation",
-    "permalink": "/docs/rtg-framework/datatype/operation"
+    "title": "Test Interaction, Test Sequence, Test Runner, Test Result",
+    "permalink": "/docs/rtg-framework/datatype/test-sequence-interaction-runner"
   },
   "next": {
-    "title": "Interaction Processor",
-    "permalink": "/docs/rtg-framework/interaction-processor/"
+    "title": "Extensible Components",
+    "permalink": "/docs/category/extensible-components"
   }
 }

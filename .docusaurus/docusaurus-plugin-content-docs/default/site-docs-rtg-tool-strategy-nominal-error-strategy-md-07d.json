@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "strategiesSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/rtg-tool/strategy/introduction"
+    "title": "Functional Testing Strategies",
+    "permalink": "/docs/category/functional-testing-strategies"
   },
   "next": {
-    "title": "Mass Assignment Strategy",
-    "permalink": "/docs/rtg-tool/strategy/mass-assignment-strategy"
+    "title": "Security Testing Strategies",
+    "permalink": "/docs/category/security-testing-strategies"
   }
 }
