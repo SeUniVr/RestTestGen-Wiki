@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fc1'),
+    component: ComponentCreator('/docs', '8ff'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4df'),
+        component: ComponentCreator('/docs', 'a23'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '7f6'),
+            component: ComponentCreator('/docs', '423'),
             routes: [
               {
                 path: '/docs/automated-testing',
@@ -99,6 +99,12 @@ export default [
               {
                 path: '/docs/rtg-framework/components/core-extensibile-description',
                 component: ComponentCreator('/docs/rtg-framework/components/core-extensibile-description', '85a'),
+                exact: true,
+                sidebar: "frameworkSidebar"
+              },
+              {
+                path: '/docs/rtg-framework/components/execution-pipeline',
+                component: ComponentCreator('/docs/rtg-framework/components/execution-pipeline', 'd85'),
                 exact: true,
                 sidebar: "frameworkSidebar"
               },

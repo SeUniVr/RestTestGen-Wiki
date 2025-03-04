@@ -21,6 +21,7 @@ const sidebars: SidebarsConfig = {
     
   frameworkSidebar: [
     'rtg-framework/components/core-extensibile-description',
+    'rtg-framework/components/execution-pipeline',
     {
       type: 'category',
       label: 'Core Components',

@@ -66,7 +66,6 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2025 RestTestGen, Inc. Built with Docusaurus.",
       "links": []
     },
     "prism": {

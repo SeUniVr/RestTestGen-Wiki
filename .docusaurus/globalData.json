@@ -26,6 +26,11 @@
               "sidebar": "frameworkSidebar"
             },
             {
+              "id": "rtg-framework/components/execution-pipeline",
+              "path": "/docs/rtg-framework/components/execution-pipeline",
+              "sidebar": "frameworkSidebar"
+            },
+            {
               "id": "rtg-framework/datatype/operation",
               "path": "/docs/rtg-framework/datatype/operation",
               "sidebar": "frameworkSidebar"

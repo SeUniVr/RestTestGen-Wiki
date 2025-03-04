@@ -1,5 +1,5 @@
 # RestTestGen
-RestTestGen is a testing framework created to **automatically generate test cases** for the **REST API**. The assumption made a priori is that one cannot have direct access to the source code, but only to the OpenAPI specification, and that one can interact with the REST API directly via the HTTP protocol.
+RTG is a **framework** that provides a collection of extensible components to **implement automated black-box testing strategies** of REST APIs. This facilitates the work of those who want to implement new automated testing strategies, whether researchers or practitioners. The assumption made a priori is that one cannot have direct access to the source code, but only to the OpenAPI specification, and that one can interact with the REST API directly via the HTTP protocol.
 
 Through the specification, it is possible to know the list of available operations, the format of the input data and the format of the answers. This allows the tool to execute well-formed HTTP requests and evaluate the responses that are received. The advantage of using a **black-box approach** is to be able to create a tool that is independent of the language in which the REST service has been implemented. Furthermore, for complex architectures composed of many micro-services, implementing a white-box approach may be much more difficult.
 

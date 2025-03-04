@@ -13,7 +13,7 @@
   "frontMatter": {},
   "sidebar": "frameworkSidebar",
   "next": {
-    "title": "Core Components",
-    "permalink": "/docs/category/core-components"
+    "title": "Execution Pipeline",
+    "permalink": "/docs/rtg-framework/components/execution-pipeline"
   }
 }

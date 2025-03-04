@@ -75,8 +75,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} RestTestGen, Inc. Built with Docusaurus.`,
+      style: 'dark'
     },
     prism: {
       theme: prismThemes.github,
