@@ -10,16 +10,16 @@ const config: Config = {
   favicon: 'img/title-icon.png', //CHANGE IT
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com', //CHANGE IT
+  url: 'https://SeUniVr.github.io', //CHANGE IT
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/RestTestGen-Wiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'SeUniVR', // Usually your GitHub org/user name.
-  projectName: 'rtg-documentation', // Usually your repo name.
-
+  organizationName: 'SeUniVr', // Usually your GitHub org/user name.
+  projectName: 'RestTestGen-Wiki', // Usually your repo name.
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
