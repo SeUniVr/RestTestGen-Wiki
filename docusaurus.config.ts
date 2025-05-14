@@ -5,6 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  staticDirectories: ['static'],
   title: 'RestTestGen',
   tagline: 'An extensible framework for automated black-box testing of RESTful web APIs',
   favicon: 'img/title-icon.png', //CHANGE IT
