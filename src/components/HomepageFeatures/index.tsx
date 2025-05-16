@@ -12,31 +12,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Reliability and Robustness',
-    image: require('@site/static/img/strong.png').default,
-    description: (
-      <>
-        Our components are designed to be <b>reliable</b>, preventing crashes even when encountering 
-        malformed input in specifications or HTTP interactions.
-      </>
-    ),
-  },
-  {
     title: 'Quick Development',
     image: require('@site/static/img/rocket2.png').default,
     description: (
       <>
-        <b>Speed up</b> the development of your automated testing strategy 
-        with RTG's modular components.
+        <b>Speed up</b> the development of your automated testing strategy for REST APIs
+        with RestTestGen's modular components.
       </>
     ),
   },
+    {
+        title: 'Reliability and Robustness',
+        image: require('@site/static/img/strong.png').default,
+        description: (
+            <>
+                Our components are designed to be <b>reliable</b>, preventing crashes even when encountering
+                malformed input in OpenAPI specifications or HTTP interactions.
+            </>
+        ),
+    },
   {
     title: 'Smart Testing',
     image: require('@site/static/img/brain.png').default,
     description: (
       <>
-        Test <b>automatically</b> your REST APIs using our built-in strategies. 
+        Test your REST APIs <b>automatically</b> using our built-in strategies.
       </>
     ),
   },

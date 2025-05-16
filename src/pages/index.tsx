@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/rtg">
-            &#128366; Introduction to RTG
+            Start here!
           </Link>
         </div>
       </div>
