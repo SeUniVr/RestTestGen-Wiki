@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   staticDirectories: ['static'],
-  title: 'RestTestGen',
+  title: 'RestTestGen Framework',
   tagline: 'An extensible framework for automated black-box testing of RESTful web APIs',
   favicon: 'img/title-icon.png', //CHANGE IT
 

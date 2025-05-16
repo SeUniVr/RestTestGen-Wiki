@@ -33,7 +33,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`RTG Documentation`}
+      title={`Wiki and Documentation`}
       description="<head />">
       <HomepageHeader />
       <main>
